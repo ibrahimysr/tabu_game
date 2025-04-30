@@ -69,95 +69,356 @@ class _TabuGameState extends State<TabuGame> with TickerProviderStateMixin {
   }
 
   Future<void> _showRoundEndDialog() async {
-    setState(() {
-      isPlaying = false;
-    });
+  setState(() {
+    isPlaying = false;
+  });
 
-    completedTurns++;
-    bool isRoundComplete = completedTurns % 2 == 0;
-    bool isGameComplete = completedTurns == (settings.totalRounds * 2);
+  completedTurns++;
+  bool isRoundComplete = completedTurns % 2 == 0;
+  bool isGameComplete = completedTurns == (settings.totalRounds * 2);
 
-    if (isGameComplete) {
-      await _showGameEndDialog();
-    } else {
-      await showDialog(
-        context: context,
-        barrierDismissible: false,
-        builder: (context) => AlertDialog(
-          title: Text('Süre Doldu!'),
-          content: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Text(
-                  'Sıra ${currentTeam == 1 ? settings.team2Name : settings.team1Name} takımına geçiyor!'),
-              if (isRoundComplete) Text('\n$currentRound. tur tamamlandı!'),
-            ],
-          ),
-          actions: [
-            TextButton(
-              child: Text('Devam'),
-              onPressed: () {
-                Navigator.pop(context);
-                setState(() {
-                  if (isRoundComplete) {
-                    currentRound++;
-                    team1TabuRights = 3;
-                    team2TabuRights = 3;
-                  }
-                  currentTeam = currentTeam == 1 ? 2 : 1;
-                  timeLeft = settings.roundDuration;
-                  startRound();
-                });
-              },
-            ),
-          ],
-        ),
-      );
-    }
-  }
-
-  Future<void> _showGameEndDialog() async {
-    String winner;
-    if (team1Score > team2Score) {
-      winner = "${settings.team1Name} kazandı!";
-    } else if (team2Score > team1Score) {
-      winner = "${settings.team2Name} kazandı!";
-    } else {
-      winner = "Berabere!";
-    }
-
+  if (isGameComplete) {
+    await _showGameEndDialog();
+  } else {
     await showDialog(
       context: context,
       barrierDismissible: false,
-      builder: (context) => AlertDialog(
-        title: Text('Oyun Bitti!'),
-        content: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Text(winner),
-            SizedBox(height: 10),
-            Text('${settings.team1Name}: $team1Score puan'),
-            Text('${settings.team2Name}: $team2Score puan'),
-          ],
+      builder: (context) => Dialog(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(20),
         ),
-        actions: [
-          TextButton(
-            child: Text('Yeni Oyun'),
-            onPressed: () {
-              Navigator.pop(context);
-              setState(() {
-                team1Score = 0;
-                team2Score = 0;
-                currentRound = 1;
-                completedTurns = 0;
-                gameStarted = false;
-              });
-            },
+        elevation: 10,
+        backgroundColor: Colors.transparent,
+        child: Container(
+          padding: EdgeInsets.all(22),
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                Color(0xFF5C6BC0),  // Açık mavi
+                Color(0xFF3949AB),  // Orta mavi
+                Color(0xFF1A237E),  // Koyu mavi
+              ],
+            ),
+            borderRadius: BorderRadius.circular(20),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black26,
+                blurRadius: 10,
+                offset: Offset(0, 5),
+              ),
+            ],
           ),
-        ],
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              CircleAvatar(
+                backgroundColor: Colors.white.withOpacity(0.3),
+                radius: 35,
+                child: Icon(
+                  Icons.timer_off,
+                  size: 40,
+                  color: Colors.white,
+                ),
+              ),
+              SizedBox(height: 20),
+              Text(
+                'Süre Doldu!', 
+                style: TextStyle(
+                  fontSize: 24, 
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white
+                )
+              ),
+              SizedBox(height: 15),
+              Divider(color: Colors.white.withOpacity(0.5), thickness: 1),
+              SizedBox(height: 15),
+              Text(
+                'Sıra ${currentTeam == 1 ? settings.team2Name : settings.team1Name} takımına geçiyor!',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: 18,
+                  color: Colors.white,
+                ),
+              ),
+              if (isRoundComplete) 
+                Container(
+                  margin: EdgeInsets.only(top: 15),
+                  padding: EdgeInsets.symmetric(vertical: 8, horizontal: 15),
+                  decoration: BoxDecoration(
+                    color: Colors.yellow.withOpacity(0.3),
+                    borderRadius: BorderRadius.circular(30),
+                  ),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Icon(Icons.emoji_events, color: Colors.yellow),
+                      SizedBox(width: 8),
+                      Text(
+                        '$currentRound. tur tamamlandı!',
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              SizedBox(height: 25),
+              ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.greenAccent.withOpacity(0.8),
+                  foregroundColor: Colors.white,
+                  padding: EdgeInsets.symmetric(horizontal: 30, vertical: 15),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(30),
+                  ),
+                  elevation: 5,
+                ),
+                onPressed: () {
+                  Navigator.pop(context);
+                  setState(() {
+                    if (isRoundComplete) {
+                      currentRound++;
+                      team1TabuRights = 3;
+                      team2TabuRights = 3;
+                    }
+                    currentTeam = currentTeam == 1 ? 2 : 1;
+                    timeLeft = settings.roundDuration;
+                    startRound();
+                  });
+                },
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Icon(Icons.play_arrow),
+                    SizedBox(width: 8),
+                    Text(
+                      'Devam',
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
+}
+
+Future<void> _showGameEndDialog() async {
+  String winner;
+  Color winnerColor;
+  IconData winnerIcon;
+  
+  if (team1Score > team2Score) {
+    winner = "${settings.team1Name} kazandı!";
+    winnerColor = Colors.blueAccent;
+    winnerIcon = Icons.emoji_events;
+  } else if (team2Score > team1Score) {
+    winner = "${settings.team2Name} kazandı!";
+    winnerColor = Colors.redAccent;
+    winnerIcon = Icons.emoji_events;
+  } else {
+    winner = "Berabere!";
+    winnerColor = Colors.purpleAccent;
+    winnerIcon = Icons.balance;
+  }
+
+  await showDialog(
+    context: context,
+    barrierDismissible: false,
+    builder: (context) => Dialog(
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(20),
+      ),
+      elevation: 10,
+      backgroundColor: Colors.transparent,
+      child: Container(
+        padding: EdgeInsets.all(24),
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              Color(0xFF673AB7),  // Mor
+              Color(0xFF4527A0),  // Koyu mor
+              Color(0xFF311B92),  // Çok koyu mor
+            ],
+          ),
+          borderRadius: BorderRadius.circular(20),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black26,
+              blurRadius: 10,
+              offset: Offset(0, 5),
+            ),
+          ],
+        ),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Stack(
+              clipBehavior: Clip.none,
+              children: [
+                Container(
+                  width: double.infinity,
+                  padding: EdgeInsets.only(top: 30, bottom: 20),
+                  child: Text(
+                    'Oyun Bitti!',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 28,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                    ),
+                  ),
+                ),
+                Positioned(
+                  top: -40,
+                  left: 0,
+                  right: 0,
+                  child: Center(
+                    child: CircleAvatar(
+                      backgroundColor: winnerColor,
+                      radius: 40,
+                      child: Icon(
+                        winnerIcon,
+                        size: 50,
+                        color: Colors.white,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            Container(
+              margin: EdgeInsets.symmetric(vertical: 15),
+              padding: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+              decoration: BoxDecoration(
+                color: winnerColor.withOpacity(0.3),
+                borderRadius: BorderRadius.circular(15),
+              ),
+              child: Text(
+                winner,
+                style: TextStyle(
+                  fontSize: 22,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                ),
+              ),
+            ),
+            SizedBox(height: 5),
+            _buildScoreCard(
+              settings.team1Name,
+              team1Score,
+              team1Score >= team2Score ? Colors.blue.shade300 : Colors.transparent,
+            ),
+            SizedBox(height: 10),
+            _buildScoreCard(
+              settings.team2Name,
+              team2Score,
+              team2Score >= team1Score ? Colors.red.shade300 : Colors.transparent,
+            ),
+            SizedBox(height: 30),
+            ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.green.withOpacity(0.8),
+                foregroundColor: Colors.white,
+                padding: EdgeInsets.symmetric(horizontal: 30, vertical: 15),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(30),
+                ),
+                elevation: 5,
+              ),
+              onPressed: () {
+                Navigator.pop(context);
+                setState(() {
+                  team1Score = 0;
+                  team2Score = 0;
+                  currentRound = 1;
+                  completedTurns = 0;
+                  gameStarted = false;
+                });
+              },
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(Icons.refresh),
+                  SizedBox(width: 8),
+                  Text(
+                    'Yeni Oyun',
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            SizedBox(height: 15),
+          ],
+        ),
+      ),
+    ),
+  );
+}
+
+Widget _buildScoreCard(String teamName, int score, Color highlightColor) {
+  return Container(
+    width: double.infinity,
+    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+    decoration: BoxDecoration(
+      color: Colors.white.withOpacity(0.2),
+      borderRadius: BorderRadius.circular(15),
+      border: Border.all(
+        color: highlightColor,
+        width: 3,
+      ),
+    ),
+    child: Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        Row(
+          children: [
+            Icon(Icons.group, color: Colors.white70),
+            SizedBox(width: 12),
+            Text(
+              teamName,
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.white,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+          ],
+        ),
+        Container(
+          padding: EdgeInsets.symmetric(horizontal: 15, vertical: 8),
+          decoration: BoxDecoration(
+            color: Colors.white.withOpacity(0.3),
+            borderRadius: BorderRadius.circular(20),
+          ),
+          child: Text(
+            '$score puan',
+            style: TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+            ),
+          ),
+        ),
+      ],
+    ),
+  );
+}
 
   void _setupAnimations() {
     _cardAnimationController = AnimationController(
@@ -338,17 +599,7 @@ class _TabuGameState extends State<TabuGame> with TickerProviderStateMixin {
           ),
           Row(
             children: [
-              IconButton(
-                icon: Icon(
-                  Theme.of(context).brightness == Brightness.dark
-                      ? Icons.light_mode
-                      : Icons.dark_mode,
-                  color: Colors.white,
-                ),
-                onPressed: () {
-                  // Implement theme toggle logic (e.g., using Provider or setState)
-                },
-              ),
+             
               if (gameStarted)
                 IconButton(
                   icon: Icon(Icons.settings, color: Colors.white),

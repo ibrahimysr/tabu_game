@@ -24,14 +24,14 @@ class Scoreboard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      padding: EdgeInsets.all(16),
+      padding: EdgeInsets.all(12),
       decoration: BoxDecoration(
         color: Colors.white.withValues(alpha:0.1),
         borderRadius: BorderRadius.circular(20),
       ),
       child: Wrap(
         alignment: WrapAlignment.spaceAround,
-        runSpacing: 16,
+        runSpacing: 12,
         children: [
           _buildTeamScore(team1Name, team1Score, currentTeam == 1),
           Container(
