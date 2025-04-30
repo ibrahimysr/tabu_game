@@ -48,7 +48,7 @@ class GameCard extends StatelessWidget {
                     ),
                   ),
                   Divider(
-                    color: Colors.grey.withOpacity(0.5),
+                    color: Colors.grey.withValues(alpha:0.5),
                     thickness: 2,
                     height: 30,
                   ),
@@ -56,7 +56,7 @@ class GameCard extends StatelessWidget {
                     margin: EdgeInsets.symmetric(vertical: 4),
                     padding: EdgeInsets.symmetric(vertical: 8, horizontal: 16),
                     decoration: BoxDecoration(
-                      color: Colors.red.withOpacity(0.1),
+                      color: Colors.red.withValues(alpha:0.1),
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Text(

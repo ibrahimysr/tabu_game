@@ -26,7 +26,7 @@ class Scoreboard extends StatelessWidget {
       width: double.infinity,
       padding: EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: Colors.white.withOpacity(0.1),
+        color: Colors.white.withValues(alpha:0.1),
         borderRadius: BorderRadius.circular(20),
       ),
       child: Wrap(
@@ -37,7 +37,7 @@ class Scoreboard extends StatelessWidget {
           Container(
             width: 2,
             height: 40,
-            color: Colors.white.withOpacity(0.3),
+            color: Colors.white.withValues(alpha:0.3),
           ),
           _buildTeamScore(team2Name, team2Score, currentTeam == 2),
           Container(

@@ -13,7 +13,7 @@ class TabuRightsIndicator extends StatelessWidget {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
       decoration: BoxDecoration(
-        color: Colors.white.withOpacity(0.1),
+        color: Colors.white.withValues(alpha:0.1),
         borderRadius: BorderRadius.circular(15),
       ),
       child: Row(
@@ -33,7 +33,7 @@ class TabuRightsIndicator extends StatelessWidget {
               Icons.star,
               color: index < currentTabuRights 
                 ? Colors.yellow 
-                : Colors.white.withOpacity(0.3),
+                : Colors.white.withValues(alpha:0.3),
               size: 20,
             ),
           )),

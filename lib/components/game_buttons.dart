@@ -17,7 +17,7 @@ class GameButtons extends StatelessWidget {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
       decoration: BoxDecoration(
-        color: Colors.white.withOpacity(0.1),
+        color: Colors.white.withValues(alpha:  0.1),
         borderRadius: BorderRadius.circular(20),
       ),
       child: Wrap(
@@ -61,14 +61,14 @@ class GameButtons extends StatelessWidget {
         gradient: LinearGradient(
           colors: onPressed == null 
             ? [Colors.grey, Colors.grey.shade600]
-            : [color.withOpacity(0.8), color],
+            : [color.withValues(alpha:0.8), color],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
         borderRadius: BorderRadius.circular(15),
         boxShadow: onPressed == null ? [] : [
           BoxShadow(
-            color: color.withOpacity(0.4),
+            color: color.withValues(alpha:0.4),
             blurRadius: 8,
             offset: Offset(0, 4),
           ),
