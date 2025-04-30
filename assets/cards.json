@@ -1,0 +1,3613 @@
+{
+  "cards": [
+    {
+      "Id": "1",
+      "Kelime": "İksir",
+      "Yasak1": "Büyü",
+      "Yasak2": "İçmek",
+      "Yasak3": "Sihir",
+      "Yasak4": "Cadı",
+      "Yasak5": "Karışım"
+    },
+    {
+      "Id": "2",
+      "Kelime": "Unutmak",
+      "Yasak1": "Hatırlamak",
+      "Yasak2": "Akıl",
+      "Yasak3": "Geçmiş",
+      "Yasak4": "Eski",
+      "Yasak5": "Hafıza"
+    },
+    {
+      "Id": "3",
+      "Kelime": "İllet",
+      "Yasak1": "Hastalık",
+      "Yasak2": "Sorun",
+      "Yasak3": "Sinir",
+      "Yasak4": "Deva",
+      "Yasak5": "Kötü"
+    },
+    {
+      "Id": "4",
+      "Kelime": "Saptamak",
+      "Yasak1": "Tespit Etmek",
+      "Yasak2": "Bulmak",
+      "Yasak3": "Belirlemek",
+      "Yasak4": "Araştırmak",
+      "Yasak5": "Yer"
+    },
+    {
+      "Id": "5",
+      "Kelime": "Mensup",
+      "Yasak1": "Üye",
+      "Yasak2": "İlişki",
+      "Yasak3": "Bağlı",
+      "Yasak4": "Olmak",
+      "Yasak5": "Basın"
+    },
+    {
+      "Id": "6",
+      "Kelime": "İskonto",
+      "Yasak1": "İndirin",
+      "Yasak2": "Tenzilat",
+      "Yasak3": "Az",
+      "Yasak4": "Eksik",
+      "Yasak5": "Senet"
+    },
+    {
+      "Id": "7",
+      "Kelime": "Kelepçe",
+      "Yasak1": "Polis",
+      "Yasak2": "Suçlu",
+      "Yasak3": "Takmak",
+      "Yasak4": "Yakalamak",
+      "Yasak5": "El"
+    },
+    {
+      "Id": "8",
+      "Kelime": "Hacim",
+      "Yasak1": "Alan",
+      "Yasak2": "En",
+      "Yasak3": "Boy",
+      "Yasak4": "Metre Küp",
+      "Yasak5": "Kütle"
+    },
+    {
+      "Id": "9",
+      "Kelime": "Müptela",
+      "Yasak1": "Bağımlı",
+      "Yasak2": "İstemek",
+      "Yasak3": "Alkol",
+      "Yasak4": "Sigara",
+      "Yasak5": "Tiryaki"
+    },
+    {
+      "Id": "10",
+      "Kelime": "Melik Kibar",
+      "Yasak1": "Müzisyen",
+      "Yasak2": "Beste",
+      "Yasak3": "Hababam Sınıfı",
+      "Yasak4": "Zeynep Talu",
+      "Yasak5": "Erol Evgin"
+    },
+    {
+      "Id": "11",
+      "Kelime": "Kemençe",
+      "Yasak1": "Karadeniz",
+      "Yasak2": "Müzik",
+      "Yasak3": "Çalmak",
+      "Yasak4": "Laz",
+      "Yasak5": "Horon"
+    },
+    {
+      "Id": "12",
+      "Kelime": "Mesele",
+      "Yasak1": "Sorun",
+      "Yasak2": "Olay",
+      "Yasak3": "İş",
+      "Yasak4": "Konu",
+      "Yasak5": "Zorluk"
+    },
+    {
+      "Id": "13",
+      "Kelime": "Kıraathane",
+      "Yasak1": "Okey",
+      "Yasak2": "Tavla",
+      "Yasak3": "İskambil",
+      "Yasak4": "Kahve",
+      "Yasak5": "Çay"
+    },
+    {
+      "Id": "14",
+      "Kelime": "Salya",
+      "Yasak1": "Tükürük",
+      "Yasak2": "Ağız",
+      "Yasak3": "Köpek",
+      "Yasak4": "Kuduz",
+      "Yasak5": "Akmak"
+    },
+    {
+      "Id": "15",
+      "Kelime": "Kartuş",
+      "Yasak1": "Yazıcı",
+      "Yasak2": "Mürekkep",
+      "Yasak3": "Basmak",
+      "Yasak4": "Bilgisayar",
+      "Yasak5": "Bitmek"
+    },
+    {
+      "Id": "16",
+      "Kelime": "Kerpeten",
+      "Yasak1": "Alet",
+      "Yasak2": "Çivi",
+      "Yasak3": "Çekiç",
+      "Yasak4": "Pense",
+      "Yasak5": "Çekmek"
+    },
+    {
+      "Id": "17",
+      "Kelime": "Tango",
+      "Yasak1": "Arjantin",
+      "Yasak2": "Çift",
+      "Yasak3": "Müzik",
+      "Yasak4": "Romantik",
+      "Yasak5": "Dans Etmek"
+    },
+    {
+      "Id": "18",
+      "Kelime": "Arnavut Ciğeri",
+      "Yasak1": "Yemek",
+      "Yasak2": "Et",
+      "Yasak3": "Sakatat",
+      "Yasak4": "Tava",
+      "Yasak5": "Organ"
+    },
+    {
+      "Id": "19",
+      "Kelime": "Servis Kırmak",
+      "Yasak1": "Tenis",
+      "Yasak2": "Raket",
+      "Yasak3": "Çevirmek",
+      "Yasak4": "Rakip",
+      "Yasak5": "Kort"
+    },
+    {
+      "Id": "20",
+      "Kelime": "Molekül",
+      "Yasak1": "Kimya",
+      "Yasak2": "Atom",
+      "Yasak3": "Madde",
+      "Yasak4": "Taneci",
+      "Yasak5": "Parça"
+    },
+    {
+      "Id": "21",
+      "Kelime": "Prömiyer",
+      "Yasak1": "Gala",
+      "Yasak2": "Film",
+      "Yasak3": "İlk",
+      "Yasak4": "Gösteri",
+      "Yasak5": "Tiyatro"
+    },
+    {
+      "Id": "22",
+      "Kelime": "Çılgınlık",
+      "Yasak1": "Delilik",
+      "Yasak2": "Heyecan",
+      "Yasak3": "Değişiklik",
+      "Yasak4": "Risk",
+      "Yasak5": "Yapmak"
+    },
+    {
+      "Id": "23",
+      "Kelime": "Harakiri",
+      "Yasak1": "Japon",
+      "Yasak2": "İntihar",
+      "Yasak3": "Kılıç",
+      "Yasak4": "Şeref",
+      "Yasak5": "Yapmak"
+    },
+    {
+      "Id": "24",
+      "Kelime": "Dede Korkut",
+      "Yasak1": "Efsane",
+      "Yasak2": "Ergenekon",
+      "Yasak3": "Destan",
+      "Yasak4": "Hikaye",
+      "Yasak5": "Eski"
+    },
+    {
+      "Id": "25",
+      "Kelime": "İçini Dökmek",
+      "Yasak1": "Anlatmak",
+      "Yasak2": "Söylemek",
+      "Yasak3": "Konuşmak",
+      "Yasak4": "Rahatlamak",
+      "Yasak5": "Dert"
+    },
+    {
+      "Id": "26",
+      "Kelime": "Pişkin",
+      "Yasak1": "Utanmak",
+      "Yasak2": "Sıkılmak",
+      "Yasak3": "Rahat",
+      "Yasak4": "Yemek",
+      "Yasak5": "Çiğ"
+    },
+    {
+      "Id": "27",
+      "Kelime": "İçini Dökmek",
+      "Yasak1": "Anlatmak",
+      "Yasak2": "Söylemek",
+      "Yasak3": "Konuşmak",
+      "Yasak4": "Rahatlamak",
+      "Yasak5": "Ders"
+    },
+    {
+      "Id": "28",
+      "Kelime": "Gaf",
+      "Yasak1": "Pot Kırmak",
+      "Yasak2": "Hata",
+      "Yasak3": "Yanlış",
+      "Yasak4": "Yapmak",
+      "Yasak5": "Söylemek"
+    },
+    {
+      "Id": "29",
+      "Kelime": "Dert",
+      "Yasak1": "Sıkıntı",
+      "Yasak2": "Üzüntü",
+      "Yasak3": "Kötü",
+      "Yasak4": "Acı",
+      "Yasak5": "Derman"
+    },
+    {
+      "Id": "30",
+      "Kelime": "Bezgin",
+      "Yasak1": "Tembel",
+      "Yasak2": "Bitkin",
+      "Yasak3": "Yorgun",
+      "Yasak4": "Leman",
+      "Yasak5": "Bekir"
+    },
+    {
+      "Id": "31",
+      "Kelime": "Biçim",
+      "Yasak1": "Şekil",
+      "Yasak2": "Görünüş",
+      "Yasak3": "Uygun",
+      "Yasak4": "Yakışık",
+      "Yasak5": "Form"
+    },
+    {
+      "Id": "32",
+      "Kelime": "Maşrapa",
+      "Yasak1": "Bardak",
+      "Yasak2": "Su",
+      "Yasak3": "İçmek",
+      "Yasak4": "Kap",
+      "Yasak5": "Kulp"
+    },
+    {
+      "Id": "33",
+      "Kelime": "Fingirdek",
+      "Yasak1": "Oynak",
+      "Yasak2": "Cilveli",
+      "Yasak3": "Neşeli",
+      "Yasak4": "Kız",
+      "Yasak5": "Kadın"
+    },
+    {
+      "Id": "34",
+      "Kelime": "Global",
+      "Yasak1": "Küresel",
+      "Yasak2": "Dünya",
+      "Yasak3": "Bütünleşmek",
+      "Yasak4": "Bölgesel",
+      "Yasak5": "Ülke"
+    },
+    {
+      "Id": "35",
+      "Kelime": "Ganimet",
+      "Yasak1": "Savaş",
+      "Yasak2": "Para",
+      "Yasak3": "Kazanmak",
+      "Yasak4": "Hazine",
+      "Yasak5": "Ordu"
+    },
+    {
+      "Id": "36",
+      "Kelime": "Sempatik",
+      "Yasak1": "Hoş",
+      "Yasak2": "Sevimli",
+      "Yasak3": "Sıcak",
+      "Yasak4": "Samimi",
+      "Yasak5": "Cana Yakın"
+    },
+    {
+      "Id": "37",
+      "Kelime": "Fondöten",
+      "Yasak1": "Pudra",
+      "Yasak2": "Makyaj",
+      "Yasak3": "Yüz",
+      "Yasak4": "Sürmek",
+      "Yasak5": "Kapatıcı"
+    },
+    {
+      "Id": "38",
+      "Kelime": "Rehavet",
+      "Yasak1": "Uyku",
+      "Yasak2": "Ağırlık",
+      "Yasak3": "Çökmek",
+      "Yasak4": "Yemek",
+      "Yasak5": "Yorgun"
+    },
+    {
+      "Id": "39",
+      "Kelime": "Tellak",
+      "Yasak1": "Hamam",
+      "Yasak2": "Kese",
+      "Yasak3": "Göbek Taşı",
+      "Yasak4": "YIkanmak",
+      "Yasak5": "Kir"
+    },
+    {
+      "Id": "40",
+      "Kelime": "İçli Köfte",
+      "Yasak1": "Gaziantep",
+      "Yasak2": "Yemek",
+      "Yasak3": "Kıyma",
+      "Yasak4": "Dış",
+      "Yasak5": "Kızartmak"
+    },
+    {
+      "Id": "41",
+      "Kelime": "İbadet",
+      "Yasak1": "Dua",
+      "Yasak2": "Namaz",
+      "Yasak3": "Din",
+      "Yasak4": "Cami",
+      "Yasak5": "Oruç"
+    },
+    {
+      "Id": "42",
+      "Kelime": "Dalavere",
+      "Yasak1": "Gizli",
+      "Yasak2": "Arka",
+      "Yasak3": "İkiyüzlü",
+      "Yasak4": "İş Çevirmek",
+      "Yasak5": "Kurnaz"
+    },
+    {
+      "Id": "43",
+      "Kelime": "Dilenci",
+      "Yasak1": "Para",
+      "Yasak2": "İstemek",
+      "Yasak3": "Yalvarmak",
+      "Yasak4": "Sokak",
+      "Yasak5": "Mendil"
+    },
+    {
+      "Id": "44",
+      "Kelime": "Koklamak",
+      "Yasak1": "Yemek",
+      "Yasak2": "Çiçek",
+      "Yasak3": "Parfüm",
+      "Yasak4": "Burun",
+      "Yasak5": "Duyu"
+    },
+    {
+      "Id": "45",
+      "Kelime": "Çağlamak",
+      "Yasak1": "Su",
+      "Yasak2": "Akmak",
+      "Yasak3": "Şelale",
+      "Yasak4": "Irmak",
+      "Yasak5": "Nehir"
+    },
+    {
+      "Id": "46",
+      "Kelime": "Koçan",
+      "Yasak1": "Mısır",
+      "Yasak2": "Tane",
+      "Yasak3": "Soymak",
+      "Yasak4": "Bilet",
+      "Yasak5": "Kesmek"
+    },
+    {
+      "Id": "47",
+      "Kelime": "Kolon",
+      "Yasak1": "Bina",
+      "Yasak2": "Yapı",
+      "Yasak3": "Beton",
+      "Yasak4": "İnşaat",
+      "Yasak5": "Taşımak"
+    },
+    {
+      "Id": "48",
+      "Kelime": "Küme",
+      "Yasak1": "Grup",
+      "Yasak2": "Lig",
+      "Yasak3": "Ayırmak",
+      "Yasak4": "Çalışma",
+      "Yasak5": "İlkokul"
+    },
+    {
+      "Id": "49",
+      "Kelime": "Makinist",
+      "Yasak1": "Tren",
+      "Yasak2": "Metro",
+      "Yasak3": "Kullanmak",
+      "Yasak4": "Sinema",
+      "Yasak5": "Film"
+    },
+    {
+      "Id": "50",
+      "Kelime": "Atilla İlhan",
+      "Yasak1": "Şair",
+      "Yasak2": "Yazar",
+      "Yasak3": "Kitap",
+      "Yasak4": "Şağka",
+      "Yasak5": "Şiir"
+    },
+    {
+      "Id": "51",
+      "Kelime": "Hipodrom",
+      "Yasak1": "At Yarışı",
+      "Yasak2": "Koşmak",
+      "Yasak3": "Pist",
+      "Yasak4": "Altılı Ganyan",
+      "Yasak5": "Veli Efendi"
+    },
+    {
+      "Id": "52",
+      "Kelime": "Çağan Irmak",
+      "Yasak1": "Yönetmen",
+      "Yasak2": "Film",
+      "Yasak3": "Sinema",
+      "Yasak4": "Asmalı Konak",
+      "Yasak5": "Babam ve Oğlum"
+    },
+    {
+      "Id": "53",
+      "Kelime": "Sille",
+      "Yasak1": "Tokat",
+      "Yasak2": "Yemek",
+      "Yasak3": "Atmak",
+      "Yasak4": "Vurmak",
+      "Yasak5": "Hayat"
+    },
+    {
+      "Id": "54",
+      "Kelime": "Dikiz Aynası",
+      "Yasak1": "Araba",
+      "Yasak2": "Otomobil",
+      "Yasak3": "Arka",
+      "Yasak4": "Bakmak",
+      "Yasak5": "Ayarlamak"
+    },
+    {
+      "Id": "55",
+      "Kelime": "Yetkili",
+      "Yasak1": "Sorumlu",
+      "Yasak2": "Görevli",
+      "Yasak3": "Yönetici",
+      "Yasak4": "Müdür",
+      "Yasak5": "İdareci"
+    },
+    {
+      "Id": "56",
+      "Kelime": "Beraat Etmek",
+      "Yasak1": "Hapis",
+      "Yasak2": "Mahkum",
+      "Yasak3": "Çıkmak",
+      "Yasak4": "Ceza",
+      "Yasak5": "Suçsuz"
+    },
+    {
+      "Id": "57",
+      "Kelime": "Koloni",
+      "Yasak1": "Ülke",
+      "Yasak2": "Sömürge",
+      "Yasak3": "İngiltere",
+      "Yasak4": "Göçmen",
+      "Yasak5": "Topluluk"
+    },
+    {
+      "Id": "58",
+      "Kelime": "Reşit",
+      "Yasak1": "18",
+      "Yasak2": "Ergen",
+      "Yasak3": "Yeişkin",
+      "Yasak4": "Büyük",
+      "Yasak5": "Çocuk"
+    },
+    {
+      "Id": "59",
+      "Kelime": "Çağ",
+      "Yasak1": "Yüzyıl",
+      "Yasak2": "Asır",
+      "Yasak3": "Yeni",
+      "Yasak4": "Eski",
+      "Yasak5": "Orta"
+    },
+    {
+      "Id": "60",
+      "Kelime": "Homurdanmak",
+      "Yasak1": "Söylenmek",
+      "Yasak2": "Konuşmak",
+      "Yasak3": "Mırıldanmak",
+      "Yasak4": "Kızmak",
+      "Yasak5": "Sinirlenmek"
+    },
+    {
+      "Id": "61",
+      "Kelime": "Dalkavuk",
+      "Yasak1": "Yağ Çekmek",
+      "Yasak2": "Yaranmak",
+      "Yasak3": "Padişah",
+      "Yasak4": "Yalaka",
+      "Yasak5": "Kral"
+    },
+    {
+      "Id": "62",
+      "Kelime": "Çömelek",
+      "Yasak1": "Oturmak",
+      "Yasak2": "Çökmek",
+      "Yasak3": "Yer",
+      "Yasak4": "Diz",
+      "Yasak5": "Eğilmek"
+    },
+    {
+      "Id": "63",
+      "Kelime": "Şurası",
+      "Yasak1": "Orası",
+      "Yasak2": "Burası",
+      "Yasak3": "Yer",
+      "Yasak4": "Göstermek",
+      "Yasak5": "İşaret"
+    },
+    {
+      "Id": "64",
+      "Kelime": "Mp3",
+      "Yasak1": "Müzik",
+      "Yasak2": "Şarkı",
+      "Yasak3": "İndirmek",
+      "Yasak4": "Yüklemek",
+      "Yasak5": "Dinlemek"
+    },
+    {
+      "Id": "65",
+      "Kelime": "Müneccim",
+      "Yasak1": "Kahin",
+      "Yasak2": "Büyücü",
+      "Yasak3": "Bilmek",
+      "Yasak4": "Fal",
+      "Yasak5": "Gelecek"
+    },
+    {
+      "Id": "66",
+      "Kelime": "Nuri Alço",
+      "Yasak1": "Oyuncu",
+      "Yasak2": "Yeşilçam",
+      "Yasak3": "Kötü Adam",
+      "Yasak4": "Sinema",
+      "Yasak5": "Ropdöşambır"
+    },
+    {
+      "Id": "67",
+      "Kelime": "Oklava",
+      "Yasak1": "Hamur",
+      "Yasak2": "Açmak",
+      "Yasak3": "Tahta",
+      "Yasak4": "Un",
+      "Yasak5": "Merdane"
+    },
+    {
+      "Id": "68",
+      "Kelime": "Ordinaryus",
+      "Yasak1": "Profesör",
+      "Yasak2": "Üniversite",
+      "Yasak3": "Bilim",
+      "Yasak4": "Kürsü",
+      "Yasak5": "Unvan"
+    },
+    {
+      "Id": "69",
+      "Kelime": "Tomurcuk",
+      "Yasak1": "Çiçek",
+      "Yasak2": "Açmak",
+      "Yasak3": "Küçük",
+      "Yasak4": "Gül",
+      "Yasak5": "Gonca"
+    },
+    {
+      "Id": "70",
+      "Kelime": "Artezyen",
+      "Yasak1": "Kuyu",
+      "Yasak2": "Su",
+      "Yasak3": "Kaynak",
+      "Yasak4": "Sondaj",
+      "Yasak5": "Delmek"
+    },
+    {
+      "Id": "71",
+      "Kelime": "Pedagoji",
+      "Yasak1": "Çocuk",
+      "Yasak2": "Bilim",
+      "Yasak3": "Eğitim",
+      "Yasak4": "Öğretim",
+      "Yasak5": "Metot"
+    },
+    {
+      "Id": "72",
+      "Kelime": "Kocaman",
+      "Yasak1": "İri",
+      "Yasak2": "Büyük",
+      "Yasak3": "Küçük",
+      "Yasak4": "Ufak",
+      "Yasak5": "Dev"
+    },
+    {
+      "Id": "73",
+      "Kelime": "Taşra",
+      "Yasak1": "Şehir",
+      "Yasak2": "İlçe",
+      "Yasak3": "Köy",
+      "Yasak4": "Kasaba",
+      "Yasak5": "Küçük"
+    },
+    {
+      "Id": "74",
+      "Kelime": "Mithat Bereket",
+      "Yasak1": "Pusula",
+      "Yasak2": "Haber",
+      "Yasak3": "Televizyon",
+      "Yasak4": "Program",
+      "Yasak5": "32.Gün"
+    },
+    {
+      "Id": "75",
+      "Kelime": "Fatih Akın",
+      "Yasak1": "Yönetmen",
+      "Yasak2": "Almanya",
+      "Yasak3": "Film",
+      "Yasak4": "Sibel Kekilli",
+      "Yasak5": "Duvara Karşı"
+    },
+    {
+      "Id": "76",
+      "Kelime": "Sıra Dışı",
+      "Yasak1": "Farklı",
+      "Yasak2": "Alışılmadık",
+      "Yasak3": "Olağan",
+      "Yasak4": "Monoton",
+      "Yasak5": "Aynı"
+    },
+    {
+      "Id": "77",
+      "Kelime": "Uyak",
+      "Yasak1": "Kafiye",
+      "Yasak2": "Şiir",
+      "Yasak3": "Son",
+      "Yasak4": "Dize",
+      "Yasak5": "Hece"
+    },
+    {
+      "Id": "78",
+      "Kelime": "Zor",
+      "Yasak1": "Kolay",
+      "Yasak2": "Güçlük",
+      "Yasak3": "Sıkıntı",
+      "Yasak4": "Yapmak",
+      "Yasak5": "Gelmek"
+    },
+    {
+      "Id": "79",
+      "Kelime": "Ekmek Parası",
+      "Yasak1": "Kazanmak",
+      "Yasak2": "Geçinmek",
+      "Yasak3": "Çalışmak",
+      "Yasak4": "Namus",
+      "Yasak5": "Alın Teri"
+    },
+    {
+      "Id": "80",
+      "Kelime": "Özlem",
+      "Yasak1": "Uzak",
+      "Yasak2": "Hasret",
+      "Yasak3": "Ayrılık",
+      "Yasak4": "Sevgili",
+      "Yasak5": "Gurbet"
+    },
+    {
+      "Id": "81",
+      "Kelime": "Şanzıman",
+      "Yasak1": "Motor",
+      "Yasak2": "Araba",
+      "Yasak3": "Vites",
+      "Yasak4": "Dişli",
+      "Yasak5": "Dağıtmak"
+    },
+    {
+      "Id": "82",
+      "Kelime": "Çam Devirmek",
+      "Yasak1": "Gaf",
+      "Yasak2": "Pot",
+      "Yasak3": "Hata",
+      "Yasak4": "Yanlış",
+      "Yasak5": "Konuşmak"
+    },
+    {
+      "Id": "83",
+      "Kelime": "Özenmek",
+      "Yasak1": "Benzemek",
+      "Yasak2": "Beğenmek",
+      "Yasak3": "Büyük",
+      "Yasak4": "Küçük",
+      "Yasak5": "Olmak"
+    },
+    {
+      "Id": "84",
+      "Kelime": "Büstiyer",
+      "Yasak1": "Giymek",
+      "Yasak2": "Kadın",
+      "Yasak3": "Üst",
+      "Yasak4": "Kıyafet",
+      "Yasak5": "Açık"
+    },
+    {
+      "Id": "85",
+      "Kelime": "Kont",
+      "Yasak1": "Dük",
+      "Yasak2": "Sör",
+      "Yasak3": "Asil",
+      "Yasak4": "Lord",
+      "Yasak5": "Soylu"
+    },
+    {
+      "Id": "86",
+      "Kelime": "Doymuş Yağ",
+      "Yasak1": "Kolestrol",
+      "Yasak2": "Kalp",
+      "Yasak3": "Margarin",
+      "Yasak4": "Oran",
+      "Yasak5": "Yemek"
+    },
+    {
+      "Id": "87",
+      "Kelime": "Hava Parası",
+      "Yasak1": "Satın Almak",
+      "Yasak2": "Kiralamak",
+      "Yasak3": "Dükkan",
+      "Yasak4": "Depozito",
+      "Yasak5": "İstemek"
+    },
+    {
+      "Id": "88",
+      "Kelime": "Sirkülasyon",
+      "Yasak1": "Dolaşım",
+      "Yasak2": "Kalabalık",
+      "Yasak3": "Fazla",
+      "Yasak4": "Giriş",
+      "Yasak5": "Çıkış"
+    },
+    {
+      "Id": "89",
+      "Kelime": "Tundra",
+      "Yasak1": "Bozkır",
+      "Yasak2": "Step",
+      "Yasak3": "Kutup",
+      "Yasak4": "Bitki",
+      "Yasak5": "Bölge"
+    },
+    {
+      "Id": "90",
+      "Kelime": "Amortisör",
+      "Yasak1": "Araba",
+      "Yasak2": "Sallanmak",
+      "Yasak3": "Sarsıntı",
+      "Yasak4": "Yaylanmak",
+      "Yasak5": "Çukur"
+    },
+    {
+      "Id": "91",
+      "Kelime": "Antipatik",
+      "Yasak1": "Sempatik",
+      "Yasak2": "Sevimli",
+      "Yasak3": "Sıcakkanlı",
+      "Yasak4": "Soğuk",
+      "Yasak5": "Huysuz"
+    },
+    {
+      "Id": "92",
+      "Kelime": "Kroki",
+      "Yasak1": "Kuş Bakışı",
+      "Yasak2": "Plan",
+      "Yasak3": "Çizmek",
+      "Yasak4": "Tarif",
+      "Yasak5": "Harita"
+    },
+    {
+      "Id": "93",
+      "Kelime": "Atmosfer",
+      "Yasak1": "Hava",
+      "Yasak2": "Dünya",
+      "Yasak3": "Uzay",
+      "Yasak4": "Gaz",
+      "Yasak5": "Oksijen"
+    },
+    {
+      "Id": "94",
+      "Kelime": "Feminen",
+      "Yasak1": "Dişi",
+      "Yasak2": "Kadın",
+      "Yasak3": "Seksi",
+      "Yasak4": "Çekici",
+      "Yasak5": "Maskülen"
+    },
+    {
+      "Id": "95",
+      "Kelime": "Üvey",
+      "Yasak1": "Öz",
+      "Yasak2": "Anne",
+      "Yasak3": "Baba",
+      "Yasak4": "Evlat",
+      "Yasak5": "Çocuk"
+    },
+    {
+      "Id": "96",
+      "Kelime": "Malzeme",
+      "Yasak1": "Yapmak",
+      "Yasak2": "Koymak",
+      "Yasak3": "İç",
+      "Yasak4": "Yemek",
+      "Yasak5": "Gerekli"
+    },
+    {
+      "Id": "97",
+      "Kelime": "Müthiş",
+      "Yasak1": "Harika",
+      "Yasak2": "İnanılmaz",
+      "Yasak3": "Olağanüstü",
+      "Yasak4": "Süper",
+      "Yasak5": "Çok"
+    },
+    {
+      "Id": "98",
+      "Kelime": "Mülayim",
+      "Yasak1": "Sakin",
+      "Yasak2": "Sessiz",
+      "Yasak3": "Uyumlu",
+      "Yasak4": "Yumuşak",
+      "Yasak5": "İyi"
+    },
+    {
+      "Id": "99",
+      "Kelime": "Sektör",
+      "Yasak1": "İş",
+      "Yasak2": "Meslek",
+      "Yasak3": "Kol",
+      "Yasak4": "Faaliyet",
+      "Yasak5": "Ekonomi"
+    },
+    {
+      "Id": "100",
+      "Kelime": "Tenor",
+      "Yasak1": "Opera",
+      "Yasak2": "Bariton",
+      "Yasak3": "Ses",
+      "Yasak4": "Tiz",
+      "Yasak5": "Soprano"
+    },
+    {
+      "Id": "101",
+      "Kelime": "Büluğ",
+      "Yasak1": "Genç",
+      "Yasak2": "Ergenlik",
+      "Yasak3": "Çocuk",
+      "Yasak4": "Çağ",
+      "Yasak5": "Ermek"
+    },
+    {
+      "Id": "102",
+      "Kelime": "Gariban",
+      "Yasak1": "Fakir",
+      "Yasak2": "Zavallı",
+      "Yasak3": "Kimsesiz",
+      "Yasak4": "Yalnız",
+      "Yasak5": "Tek"
+    },
+    {
+      "Id": "103",
+      "Kelime": "Çizelge",
+      "Yasak1": "Tablo",
+      "Yasak2": "Grafik",
+      "Yasak3": "Bakmak",
+      "Yasak4": "Plan",
+      "Yasak5": "Göstermek"
+    },
+    {
+      "Id": "104",
+      "Kelime": "Ketum",
+      "Yasak1": "Konuşmak",
+      "Yasak2": "Geveze",
+      "Yasak3": "Laf",
+      "Yasak4": "Dedikodu",
+      "Yasak5": "Ağza Sıkı"
+    },
+    {
+      "Id": "105",
+      "Kelime": "Muayyen",
+      "Yasak1": "Belli",
+      "Yasak2": "Dönem",
+      "Yasak3": "Gün",
+      "Yasak4": "Kadın",
+      "Yasak5": "Adet"
+    },
+    {
+      "Id": "106",
+      "Kelime": "Mütevazi",
+      "Yasak1": "Gösterişsiz",
+      "Yasak2": "İddiasız",
+      "Yasak3": "Kibar",
+      "Yasak4": "Öğünmek",
+      "Yasak5": "Alçak Gönüllü"
+    },
+    {
+      "Id": "107",
+      "Kelime": "Silüet",
+      "Yasak1": "Gölge",
+      "Yasak2": "Kenar",
+      "Yasak3": "Çizgi",
+      "Yasak4": "Işık",
+      "Yasak5": "Hat"
+    },
+    {
+      "Id": "108",
+      "Kelime": "Kefir",
+      "Yasak1": "Süt",
+      "Yasak2": "Ayran",
+      "Yasak3": "Maya",
+      "Yasak4": "İçecek",
+      "Yasak5": "Orta Asya"
+    },
+    {
+      "Id": "109",
+      "Kelime": "Neyzen",
+      "Yasak1": "Çalmak",
+      "Yasak2": "Üflemek",
+      "Yasak3": "Müzik",
+      "Yasak4": "Flüt",
+      "Yasak5": "Mercan Dede"
+    },
+    {
+      "Id": "110",
+      "Kelime": "Fünye",
+      "Yasak1": "El Bombası",
+      "Yasak2": "Ateşlemek",
+      "Yasak3": "Atmak",
+      "Yasak4": "Çekmek",
+      "Yasak5": "Barut"
+    },
+    {
+      "Id": "111",
+      "Kelime": "El Emeği",
+      "Yasak1": "Yapmak",
+      "Yasak2": "Uğraşmak",
+      "Yasak3": "İş",
+      "Yasak4": "Çalışmak",
+      "Yasak5": "Göz Nuru"
+    },
+    {
+      "Id": "112",
+      "Kelime": "Gözdağı Vermek",
+      "Yasak1": "Tehdit",
+      "Yasak2": "Korkutmak",
+      "Yasak3": "Kızmak",
+      "Yasak4": "Uyarmak",
+      "Yasak5": "Yıldırmak"
+    },
+    {
+      "Id": "113",
+      "Kelime": "Gülle",
+      "Yasak1": "Atmak",
+      "Yasak2": "Top",
+      "Yasak3": "Ağır",
+      "Yasak4": "Olimpiyat",
+      "Yasak5": "Spor"
+    },
+    {
+      "Id": "114",
+      "Kelime": "Yufka Yürekli",
+      "Yasak1": "Yumuşak",
+      "Yasak2": "Merhametli",
+      "Yasak3": "İyi",
+      "Yasak4": "Acımak",
+      "Yasak5": "Üzülmek"
+    },
+    {
+      "Id": "115",
+      "Kelime": "Havan",
+      "Yasak1": "Sarımsak",
+      "Yasak2": "Ceviz",
+      "Yasak3": "Fındık",
+      "Yasak4": "Dövmek",
+      "Yasak5": "Ezmek"
+    },
+    {
+      "Id": "116",
+      "Kelime": "Asayiş",
+      "Yasak1": "Düzen",
+      "Yasak2": "Polis",
+      "Yasak3": "Bekçi",
+      "Yasak4": "Emniyet",
+      "Yasak5": "Berkemal"
+    },
+    {
+      "Id": "117",
+      "Kelime": "Antrikot",
+      "Yasak1": "Et",
+      "Yasak2": "Sığır",
+      "Yasak3": "Dana",
+      "Yasak4": "Kemik",
+      "Yasak5": "Pirzola"
+    },
+    {
+      "Id": "118",
+      "Kelime": "Kurdeşen",
+      "Yasak1": "Dökmek",
+      "Yasak2": "Alerji",
+      "Yasak3": "Kaşınmak",
+      "Yasak4": "İsilik",
+      "Yasak5": "Cilt"
+    },
+    {
+      "Id": "119",
+      "Kelime": "Ekstre",
+      "Yasak1": "Kredi Kartı",
+      "Yasak2": "Ay",
+      "Yasak3": "Hesap",
+      "Yasak4": "Banka",
+      "Yasak5": "Ödemek"
+    },
+    {
+      "Id": "120",
+      "Kelime": "Foseptik",
+      "Yasak1": "Çukur",
+      "Yasak2": "Lağım",
+      "Yasak3": "Kuyu",
+      "Yasak4": "Kanalizasyon",
+      "Yasak5": "Vidanjör"
+    },
+    {
+      "Id": "121",
+      "Kelime": "Dayalı Döşeli",
+      "Yasak1": "Ev",
+      "Yasak2": "Mobilya",
+      "Yasak3": "Eşya",
+      "Yasak4": "Eksiksiz",
+      "Yasak5": "Dekorasyon"
+    },
+    {
+      "Id": "122",
+      "Kelime": "Mekik Dokumak",
+      "Yasak1": "Gitmek",
+      "Yasak2": "Gelmek",
+      "Yasak3": "Sürekli",
+      "Yasak4": "Tekrar",
+      "Yasak5": "Yer"
+    },
+    {
+      "Id": "123",
+      "Kelime": "İkilem",
+      "Yasak1": "Seçenek",
+      "Yasak2": "Bir",
+      "Yasak3": "Karar",
+      "Yasak4": "Arada Kalmak",
+      "Yasak5": "Emin Olmak"
+    },
+    {
+      "Id": "124",
+      "Kelime": "Mezbaha",
+      "Yasak1": "Hayvan",
+      "Yasak2": "Kesmek",
+      "Yasak3": "İnek",
+      "Yasak4": "Koyun",
+      "Yasak5": "Dana"
+    },
+    {
+      "Id": "125",
+      "Kelime": "Arsenik",
+      "Yasak1": "Siyanür",
+      "Yasak2": "Zehir",
+      "Yasak3": "Ölmek",
+      "Yasak4": "İntihar",
+      "Yasak5": "İçmek"
+    },
+    {
+      "Id": "126",
+      "Kelime": "Harabe",
+      "Yasak1": "Yıkık",
+      "Yasak2": "Eski",
+      "Yasak3": "Tarihi",
+      "Yasak4": "Efes",
+      "Yasak5": "Gezmek"
+    },
+    {
+      "Id": "127",
+      "Kelime": "Battal",
+      "Yasak1": "Boy",
+      "Yasak2": "Büyük",
+      "Yasak3": "Şişman",
+      "Yasak4": "En",
+      "Yasak5": "Gazi"
+    },
+    {
+      "Id": "128",
+      "Kelime": "Gizem",
+      "Yasak1": "Sır",
+      "Yasak2": "Tuhaf",
+      "Yasak3": "Bilinmez",
+      "Yasak4": "Olay",
+      "Yasak5": "Doğaüstü"
+    },
+    {
+      "Id": "129",
+      "Kelime": "Keder",
+      "Yasak1": "Dert",
+      "Yasak2": "Hüzün",
+      "Yasak3": "Efkar",
+      "Yasak4": "Sıkıntı",
+      "Yasak5": "Üzüntü"
+    },
+    {
+      "Id": "130",
+      "Kelime": "Dizgin",
+      "Yasak1": "At",
+      "Yasak2": "Yular",
+      "Yasak3": "Vurmak",
+      "Yasak4": "Yönetmek",
+      "Yasak5": "Ele Almak"
+    },
+    {
+      "Id": "131",
+      "Kelime": "Gözcü",
+      "Yasak1": "Nöbetçi",
+      "Yasak2": "Bakmak",
+      "Yasak3": "Haber",
+      "Yasak4": "Kontrol",
+      "Yasak5": "Dikkat"
+    },
+    {
+      "Id": "132",
+      "Kelime": "Teleferik",
+      "Yasak1": "İnmek",
+      "Yasak2": "Çıkmak",
+      "Yasak3": "Binmek",
+      "Yasak4": "Dağ",
+      "Yasak5": "Tırmanmak"
+    },
+    {
+      "Id": "133",
+      "Kelime": "Şamdan",
+      "Yasak1": "Mum",
+      "Yasak2": "Işık",
+      "Yasak3": "Aydınlık",
+      "Yasak4": "Yakmak",
+      "Yasak5": "Dergi"
+    },
+    {
+      "Id": "134",
+      "Kelime": "Kondisyon",
+      "Yasak1": "Sporcu",
+      "Yasak2": "Antrenman",
+      "Yasak3": "Koşmak",
+      "Yasak4": "İyi",
+      "Yasak5": "Zayıf"
+    },
+    {
+      "Id": "135",
+      "Kelime": "Günübirlik",
+      "Yasak1": "Gezi",
+      "Yasak2": "Sabah",
+      "Yasak3": "Akşam",
+      "Yasak4": "Gitmek",
+      "Yasak5": "Dönmek"
+    },
+    {
+      "Id": "136",
+      "Kelime": "Mesih",
+      "Yasak1": "Hz. İsa",
+      "Yasak2": "Peygamber",
+      "Yasak3": "Kurtarıcı",
+      "Yasak4": "Din",
+      "Yasak5": "Gelmek"
+    },
+    {
+      "Id": "137",
+      "Kelime": "Postal",
+      "Yasak1": "Asker",
+      "Yasak2": "Ayakkabı",
+      "Yasak3": "Çizme",
+      "Yasak4": "Ordu",
+      "Yasak5": "Giymek"
+    },
+    {
+      "Id": "138",
+      "Kelime": "Metot",
+      "Yasak1": "Yöntem",
+      "Yasak2": "Yol",
+      "Yasak3": "Tarz",
+      "Yasak4": "Harita",
+      "Yasak5": "Defter"
+    },
+    {
+      "Id": "139",
+      "Kelime": "Senkronize",
+      "Yasak1": "Aynı",
+      "Yasak2": "Eş",
+      "Yasak3": "Zaman",
+      "Yasak4": "Birlikte",
+      "Yasak5": "Yüzme"
+    },
+    {
+      "Id": "140",
+      "Kelime": "Kerata",
+      "Yasak1": "Ayakkabı",
+      "Yasak2": "Çekecek",
+      "Yasak3": "Çocuk",
+      "Yasak4": "Yaramaz",
+      "Yasak5": "Giymek"
+    },
+    {
+      "Id": "141",
+      "Kelime": "Rodos",
+      "Yasak1": "Ada",
+      "Yasak2": "Yunanistan",
+      "Yasak3": "Ege",
+      "Yasak4": "Akdeniz",
+      "Yasak5": "Turizm"
+    },
+    {
+      "Id": "142",
+      "Kelime": "Fanus",
+      "Yasak1": "Cam",
+      "Yasak2": "Küre",
+      "Yasak3": "Yuvarlak",
+      "Yasak4": "Korumak",
+      "Yasak5": "Kap"
+    },
+    {
+      "Id": "143",
+      "Kelime": "Ozan",
+      "Yasak1": "Şair",
+      "Yasak2": "Şiir",
+      "Yasak3": "Halk",
+      "Yasak4": "Aşık Veysel",
+      "Yasak5": "Yunus Emre"
+    },
+    {
+      "Id": "144",
+      "Kelime": "Kartvizit",
+      "Yasak1": "İsim",
+      "Yasak2": "İş",
+      "Yasak3": "Vermek",
+      "Yasak4": "Telefon",
+      "Yasak5": "Adres"
+    },
+    {
+      "Id": "145",
+      "Kelime": "Cevher",
+      "Yasak1": "Maden",
+      "Yasak2": "Potansiyel",
+      "Yasak3": "Çıkarmak",
+      "Yasak4": "Keşfetmek",
+      "Yasak5": "Yetenek"
+    },
+    {
+      "Id": "146",
+      "Kelime": "Başına Buyruk",
+      "Yasak1": "Kural",
+      "Yasak2": "Dinlemek",
+      "Yasak3": "Yapmak",
+      "Yasak4": "Kendi",
+      "Yasak5": "Bildiğini Okumak"
+    },
+    {
+      "Id": "147",
+      "Kelime": "Hazıra Konmak",
+      "Yasak1": "Çaba",
+      "Yasak2": "Sarf Etmek",
+      "Yasak3": "Uğraşmak",
+      "Yasak4": "Fırsat",
+      "Yasak5": "Miras"
+    },
+    {
+      "Id": "148",
+      "Kelime": "Tellal",
+      "Yasak1": "Satıcı",
+      "Yasak2": "Bağırmak",
+      "Yasak3": "Ferman",
+      "Yasak4": "Çığırtkan",
+      "Yasak5": "Ses"
+    },
+    {
+      "Id": "149",
+      "Kelime": "Casanova",
+      "Yasak1": "Çapkın",
+      "Yasak2": "Aşk",
+      "Yasak3": "Kadın",
+      "Yasak4": "Yakışıklı",
+      "Yasak5": "Efsane"
+    },
+    {
+      "Id": "150",
+      "Kelime": "Juri",
+      "Yasak1": "Mahkeme",
+      "Yasak2": "Karar",
+      "Yasak3": "Yarışma",
+      "Yasak4": "Derece",
+      "Yasak5": "Değerlendirmek"
+    },
+    {
+      "Id": "151",
+      "Kelime": "Tetanos",
+      "Yasak1": "Aşı",
+      "Yasak2": "Pas",
+      "Yasak3": "Çivi",
+      "Yasak4": "Batmak",
+      "Yasak5": "Kan"
+    },
+    {
+      "Id": "152",
+      "Kelime": "Arbede",
+      "Yasak1": "Karışıklık",
+      "Yasak2": "Kargaşa",
+      "Yasak3": "Kaos",
+      "Yasak4": "İzdiham",
+      "Yasak5": "Kavga"
+    },
+    {
+      "Id": "153",
+      "Kelime": "Arıtmak",
+      "Yasak1": "Su",
+      "Yasak2": "Saf",
+      "Yasak3": "Temiz",
+      "Yasak4": "Mikrop",
+      "Yasak5": "Kirli"
+    },
+    {
+      "Id": "154",
+      "Kelime": "Pankreas",
+      "Yasak1": "Organ",
+      "Yasak2": "Mide",
+      "Yasak3": "Karaciğer",
+      "Yasak4": "Bağırsak",
+      "Yasak5": "Salgı Bezi"
+    },
+    {
+      "Id": "155",
+      "Kelime": "Asparagas",
+      "Yasak1": "Yalan",
+      "Yasak2": "Haber",
+      "Yasak3": "Uydurmak",
+      "Yasak4": "Gazete",
+      "Yasak5": "Gerçek"
+    },
+    {
+      "Id": "156",
+      "Kelime": "Turkuaz",
+      "Yasak1": "Yeşil",
+      "Yasak2": "Mavi",
+      "Yasak3": "Renk",
+      "Yasak4": "Taş",
+      "Yasak5": "Değerli"
+    },
+    {
+      "Id": "157",
+      "Kelime": "Fırlamak",
+      "Yasak1": "Hızlı",
+      "Yasak2": "Atılmak",
+      "Yasak3": "Çakmak",
+      "Yasak4": "İleri",
+      "Yasak5": "Yükselmek"
+    },
+    {
+      "Id": "158",
+      "Kelime": "Güruh",
+      "Yasak1": "Kalabalık",
+      "Yasak2": "Grup",
+      "Yasak3": "İnsan",
+      "Yasak4": "Yığın",
+      "Yasak5": "Toplu"
+    },
+    {
+      "Id": "159",
+      "Kelime": "Toynak",
+      "Yasak1": "At",
+      "Yasak2": "Nal",
+      "Yasak3": "Ayak",
+      "Yasak4": "Tırnak",
+      "Yasak5": "Hayvan"
+    },
+    {
+      "Id": "160",
+      "Kelime": "Göze Almak",
+      "Yasak1": "Cesaret",
+      "Yasak2": "Karar",
+      "Yasak3": "İnanmak",
+      "Yasak4": "Kabul Etmek",
+      "Yasak5": "Her Şey"
+    },
+    {
+      "Id": "161",
+      "Kelime": "Kalpazan",
+      "Yasak1": "Hile",
+      "Yasak2": "Sahtekar",
+      "Yasak3": "Aldatmak",
+      "Yasak4": "Dolandırıcı",
+      "Yasak5": "Para"
+    },
+    {
+      "Id": "162",
+      "Kelime": "Kader",
+      "Yasak1": "Kısmet",
+      "Yasak2": "Alın Yazısı",
+      "Yasak3": "Talih",
+      "Yasak4": "Yazgı",
+      "Yasak5": "Boyun Eğmek"
+    },
+    {
+      "Id": "163",
+      "Kelime": "Amorti",
+      "Yasak1": "Milli Piyango",
+      "Yasak2": "İkramiye",
+      "Yasak3": "Para",
+      "Yasak4": "Son",
+      "Yasak5": "Çıkmak"
+    },
+    {
+      "Id": "164",
+      "Kelime": "Sushi",
+      "Yasak1": "Japon",
+      "Yasak2": "Yemek",
+      "Yasak3": "Çiğ Balık",
+      "Yasak4": "Pirinç",
+      "Yasak5": "Çubuk"
+    },
+    {
+      "Id": "165",
+      "Kelime": "Transfer",
+      "Yasak1": "Futbol",
+      "Yasak2": "Oyuncu",
+      "Yasak3": "Para",
+      "Yasak4": "Takım",
+      "Yasak5": "Almak"
+    },
+    {
+      "Id": "166",
+      "Kelime": "Kupa",
+      "Yasak1": "Şampiyon",
+      "Yasak2": "Kazanmak",
+      "Yasak3": "Birinci",
+      "Yasak4": "Ödül",
+      "Yasak5": "Futbol"
+    },
+    {
+      "Id": "167",
+      "Kelime": "Sim",
+      "Yasak1": "Parlak",
+      "Yasak2": "Kart",
+      "Yasak3": "Telefon",
+      "Yasak4": "Işıldamak",
+      "Yasak5": "Makyaj"
+    },
+    {
+      "Id": "168",
+      "Kelime": "Külliyen",
+      "Yasak1": "Tamamen",
+      "Yasak2": "Bütünüyle",
+      "Yasak3": "Hepsi",
+      "Yasak4": "Toptan",
+      "Yasak5": "Bir"
+    },
+    {
+      "Id": "169",
+      "Kelime": "Göreceli",
+      "Yasak1": "Kıyas",
+      "Yasak2": "Değişmek",
+      "Yasak3": "Kişi",
+      "Yasak4": "Fark",
+      "Yasak5": "Kavram"
+    },
+    {
+      "Id": "170",
+      "Kelime": "Hümeyra",
+      "Yasak1": "Oyuncu",
+      "Yasak2": "Sinema",
+      "Yasak3": "İfo",
+      "Yasak4": "Avrupa Yakası",
+      "Yasak5": "Babam ve Oğlum"
+    },
+    {
+      "Id": "171",
+      "Kelime": "Kafayı Çekmek",
+      "Yasak1": "İçmek",
+      "Yasak2": "Rakı",
+      "Yasak3": "Alkol",
+      "Yasak4": "Sofra",
+      "Yasak5": "Meyhane"
+    },
+    {
+      "Id": "172",
+      "Kelime": "Tabir",
+      "Yasak1": "Deyim",
+      "Yasak2": "Caiz",
+      "Yasak3": "Yer",
+      "Yasak4": "Rüya",
+      "Yasak5": "Anlam"
+    },
+    {
+      "Id": "173",
+      "Kelime": "Kerem Görsev",
+      "Yasak1": "Caz",
+      "Yasak2": "Piyanist",
+      "Yasak3": "Müzisyen",
+      "Yasak4": "Çalmak",
+      "Yasak5": "Miles Davis"
+    },
+    {
+      "Id": "174",
+      "Kelime": "Meşale",
+      "Yasak1": "Ateş",
+      "Yasak2": "Işık",
+      "Yasak3": "Aydınlık",
+      "Yasak4": "Yakmak",
+      "Yasak5": "Olimpiyat"
+    },
+    {
+      "Id": "175",
+      "Kelime": "Yanaşmak",
+      "Yasak1": "Gelmek",
+      "Yasak2": "Yakın",
+      "Yasak3": "Uzak",
+      "Yasak4": "Vapur",
+      "Yasak5": "Kıyı"
+    },
+    {
+      "Id": "176",
+      "Kelime": "Gizli",
+      "Yasak1": "Saklı",
+      "Yasak2": "Aramak",
+      "Yasak3": "Bulmak",
+      "Yasak4": "Bilmek",
+      "Yasak5": "Görmek"
+    },
+    {
+      "Id": "177",
+      "Kelime": "Fantastik",
+      "Yasak1": "Bilim Kurgu",
+      "Yasak2": "Hayal",
+      "Yasak3": "İnanılmaz",
+      "Yasak4": "Gerçek",
+      "Yasak5": "Dörtlü"
+    },
+    {
+      "Id": "178",
+      "Kelime": "Şikayet",
+      "Yasak1": "Etmek",
+      "Yasak2": "Hoşnutsuzluk",
+      "Yasak3": "Yakınmak",
+      "Yasak4": "Memnuniyet",
+      "Yasak5": "Tüketici"
+    },
+    {
+      "Id": "179",
+      "Kelime": "Canı Yanmak",
+      "Yasak1": "Acı",
+      "Yasak2": "Ağrı",
+      "Yasak3": "Yara",
+      "Yasak4": "Hasta",
+      "Yasak5": "Kesmek"
+    },
+    {
+      "Id": "180",
+      "Kelime": "Davar",
+      "Yasak1": "Büyükbaş",
+      "Yasak2": "Hayvan",
+      "Yasak3": "İnek",
+      "Yasak4": "Sığır",
+      "Yasak5": "Dana"
+    },
+    {
+      "Id": "181",
+      "Kelime": "Kontenjan",
+      "Yasak1": "Sayı",
+      "Yasak2": "Belirli",
+      "Yasak3": "Sınırlı",
+      "Yasak4": "Almak",
+      "Yasak5": "LimitD"
+    },
+    {
+      "Id": "182",
+      "Kelime": "Dekont",
+      "Yasak1": "Parak",
+      "Yasak2": "Belge",
+      "Yasak3": "Banka",
+      "Yasak4": "Havale",
+      "Yasak5": "Ödeme"
+    },
+    {
+      "Id": "183",
+      "Kelime": "Biyografi",
+      "Yasak1": "Ünlü",
+      "Yasak2": "Hayat",
+      "Yasak3": "Yaşam",
+      "Yasak4": "Hikaye",
+      "Yasak5": "Yazmak"
+    },
+    {
+      "Id": "184",
+      "Kelime": "Dadanmak",
+      "Yasak1": "Beğenmek",
+      "Yasak2": "İstemek",
+      "Yasak3": "Alışkanlık",
+      "Yasak4": "Sevmek",
+      "Yasak5": "Hoşlanmak"
+    },
+    {
+      "Id": "185",
+      "Kelime": "Zihniyet",
+      "Yasak1": "Görüş",
+      "Yasak2": "Düşünce",
+      "Yasak3": "Anlayış",
+      "Yasak4": "Kafa",
+      "Yasak5": "Bakış"
+    },
+    {
+      "Id": "186",
+      "Kelime": "Karides",
+      "Yasak1": "Deniz",
+      "Yasak2": "Böcek",
+      "Yasak3": "Balık",
+      "Yasak4": "Güveç",
+      "Yasak5": "Yemek"
+    },
+    {
+      "Id": "187",
+      "Kelime": "Virüs",
+      "Yasak1": "Hastalk",
+      "Yasak2": "Mikrop",
+      "Yasak3": "Bilgisayar",
+      "Yasak4": "İnternet",
+      "Yasak5": "Bulaşmak"
+    },
+    {
+      "Id": "188",
+      "Kelime": "Kornişon",
+      "Yasak1": "Salatalık",
+      "Yasak2": "Hıyar",
+      "Yasak3": "Turşu",
+      "Yasak4": "Küçük",
+      "Yasak5": "Tuz"
+    },
+    {
+      "Id": "189",
+      "Kelime": "Sonda",
+      "Yasak1": "Sıvı",
+      "Yasak2": "Çekmek",
+      "Yasak3": "İdrar",
+      "Yasak4": "Hortum",
+      "Yasak5": "Tuvalet"
+    },
+    {
+      "Id": "190",
+      "Kelime": "Bandaj",
+      "Yasak1": "Sarmak",
+      "Yasak2": "Sakatlık",
+      "Yasak3": "Spor",
+      "Yasak4": "Burkmak",
+      "Yasak5": "Yara"
+    },
+    {
+      "Id": "191",
+      "Kelime": "Kürdan",
+      "Yasak1": "Diş",
+      "Yasak2": "Ara",
+      "Yasak3": "Yemek",
+      "Yasak4": "Çubuk",
+      "Yasak5": "Ağız"
+    },
+    {
+      "Id": "192",
+      "Kelime": "Mazgal",
+      "Yasak1": "Cadde",
+      "Yasak2": "Parmaklık",
+      "Yasak3": "Kanalizasyon",
+      "Yasak4": "Su",
+      "Yasak5": "Akmak"
+    },
+    {
+      "Id": "193",
+      "Kelime": "Alman Usulü",
+      "Yasak1": "Hesap",
+      "Yasak2": "Ödemek",
+      "Yasak3": "Para",
+      "Yasak4": "Yemek",
+      "Yasak5": "Kendi"
+    },
+    {
+      "Id": "194",
+      "Kelime": "Günah Çıkarmak",
+      "Yasak1": "Hristiyan",
+      "Yasak2": "Kilise",
+      "Yasak3": "Peder",
+      "Yasak4": "Affetmek",
+      "Yasak5": "Sevap"
+    },
+    {
+      "Id": "195",
+      "Kelime": "Kızak",
+      "Yasak1": "Kayak",
+      "Yasak2": "Kar",
+      "Yasak3": "Uludağ",
+      "Yasak4": "Araç",
+      "Yasak5": "Köpek"
+    },
+    {
+      "Id": "196",
+      "Kelime": "Pırasa",
+      "Yasak1": "Sebze",
+      "Yasak2": "Zeytinyağlı",
+      "Yasak3": "Uzun",
+      "Yasak4": "İnce",
+      "Yasak5": "Sap"
+    },
+    {
+      "Id": "197",
+      "Kelime": "Şalgam",
+      "Yasak1": "İçmek",
+      "Yasak2": "Rakı",
+      "Yasak3": "Su",
+      "Yasak4": "Kebap",
+      "Yasak5": "Turşu"
+    },
+    {
+      "Id": "198",
+      "Kelime": "Kort",
+      "Yasak1": "Tenis",
+      "Yasak2": "Raket",
+      "Yasak3": "Spor",
+      "Yasak4": "Saha",
+      "Yasak5": "Oynamak"
+    },
+    {
+      "Id": "199",
+      "Kelime": "Sünnet",
+      "Yasak1": "Kesmek",
+      "Yasak2": "Erkek",
+      "Yasak3": "Düğün",
+      "Yasak4": "Kirve",
+      "Yasak5": "Kemal Özkan"
+    },
+    {
+      "Id": "200",
+      "Kelime": "Ambulans",
+      "Yasak1": "Acil",
+      "Yasak2": "Hastane",
+      "Yasak3": "Siren",
+      "Yasak4": "yaralı",
+      "Yasak5": "Kaza"
+    },
+    {
+      "Id": "201",
+      "Kelime": "Kulvar",
+      "Yasak1": "Yarış",
+      "Yasak2": "Çizgi",
+      "Yasak3": "Atlet",
+      "Yasak4": "Koşmak",
+      "Yasak5": "Sınır"
+    },
+    {
+      "Id": "202",
+      "Kelime": "Rapunzel",
+      "Yasak1": "Masal",
+      "Yasak2": "Saç",
+      "Yasak3": "Kule",
+      "Yasak4": "Prenses",
+      "Yasak5": "Tırmanmak"
+    },
+    {
+      "Id": "203",
+      "Kelime": "Ecnebi",
+      "Yasak1": "Yabancı",
+      "Yasak2": "Turist",
+      "Yasak3": "Türk",
+      "Yasak4": "Gavur",
+      "Yasak5": "Ülke"
+    },
+    {
+      "Id": "204",
+      "Kelime": "Nihayet",
+      "Yasak1": "Sonunda",
+      "Yasak2": "Ancak",
+      "Yasak3": "Beklemek",
+      "Yasak4": "Gelmek",
+      "Yasak5": "Geç Kalmak"
+    },
+    {
+      "Id": "205",
+      "Kelime": "Erol Taş",
+      "Yasak1": "Oyuncu",
+      "Yasak2": "Sinema",
+      "Yasak3": "Film",
+      "Yasak4": "Yeşilçam",
+      "Yasak5": "Kötü Adam"
+    },
+    {
+      "Id": "206",
+      "Kelime": "Estetik",
+      "Yasak1": "Güzel",
+      "Yasak2": "Operasyon",
+      "Yasak3": "Burun",
+      "Yasak4": "Ameliyat",
+      "Yasak5": "Yaptırmak"
+    },
+    {
+      "Id": "207",
+      "Kelime": "Torpil",
+      "Yasak1": "Tanıdık",
+      "Yasak2": "Yapmak",
+      "Yasak3": "Kayırmak",
+      "Yasak4": "Denizaltı",
+      "Yasak5": "Fırlatmak"
+    },
+    {
+      "Id": "208",
+      "Kelime": "Belgelemek",
+      "Yasak1": "Kanıt",
+      "Yasak2": "Açıklamak",
+      "Yasak3": "Göstermek",
+      "Yasak4": "İspat Etmek",
+      "Yasak5": "Ortaya Çıkarmak"
+    },
+    {
+      "Id": "209",
+      "Kelime": "Tef",
+      "Yasak1": "Çalmak",
+      "Yasak2": "Vurmak",
+      "Yasak3": "Müzik",
+      "Yasak4": "Zil",
+      "Yasak5": "El"
+    },
+    {
+      "Id": "210",
+      "Kelime": "Beygir",
+      "Yasak1": "At",
+      "Yasak2": "Eşek",
+      "Yasak3": "Hayvan",
+      "Yasak4": "Araba",
+      "Yasak5": "Sütçü"
+    },
+    {
+      "Id": "211",
+      "Kelime": "İnterpol",
+      "Yasak1": "Suçlu",
+      "Yasak2": "Polis",
+      "Yasak3": "Uluslararası",
+      "Yasak4": "Yakalamak",
+      "Yasak5": "Kaçak"
+    },
+    {
+      "Id": "212",
+      "Kelime": "Jant",
+      "Yasak1": "Araba",
+      "Yasak2": "Lastik",
+      "Yasak3": "Metal",
+      "Yasak4": "Tekerlek",
+      "Yasak5": "Yuvarlak"
+    },
+    {
+      "Id": "213",
+      "Kelime": "Süzgeç",
+      "Yasak1": "Delik",
+      "Yasak2": "Su",
+      "Yasak3": "Yıkamak",
+      "Yasak4": "Çay",
+      "Yasak5": "Makarna"
+    },
+    {
+      "Id": "214",
+      "Kelime": "Jeopolitik",
+      "Yasak1": "Türkiye",
+      "Yasak2": "Önem",
+      "Yasak3": "Tarih",
+      "Yasak4": "Coğrafya",
+      "Yasak5": "Yer"
+    },
+    {
+      "Id": "215",
+      "Kelime": "Dejenere",
+      "Yasak1": "Bozulmak",
+      "Yasak2": "Yozlaşmak",
+      "Yasak3": "Değişmek",
+      "Yasak4": "Olmak",
+      "Yasak5": "Kötü"
+    },
+    {
+      "Id": "216",
+      "Kelime": "Küsurat",
+      "Yasak1": "Sayı",
+      "Yasak2": "Virgül",
+      "Yasak3": "Basamak",
+      "Yasak4": "Para",
+      "Yasak5": "Ufak"
+    },
+    {
+      "Id": "217",
+      "Kelime": "Tiramisu",
+      "Yasak1": "Tatlı",
+      "Yasak2": "Pasta",
+      "Yasak3": "Kahve",
+      "Yasak4": "İtalya",
+      "Yasak5": "Labne Peyniri"
+    },
+    {
+      "Id": "218",
+      "Kelime": "Yular",
+      "Yasak1": "At",
+      "Yasak2": "Bağlamak",
+      "Yasak3": "İp",
+      "Yasak4": "Ağız",
+      "Yasak5": "Takmak"
+    },
+    {
+      "Id": "219",
+      "Kelime": "Avanta",
+      "Yasak1": "Emek",
+      "Yasak2": "Kazanç",
+      "Yasak3": "Rüşvet",
+      "Yasak4": "Para",
+      "Yasak5": "Vermek"
+    },
+    {
+      "Id": "220",
+      "Kelime": "Bamya",
+      "Yasak1": "Yemek",
+      "Yasak2": "Yeşil",
+      "Yasak3": "Sebze",
+      "Yasak4": "Yapışkan",
+      "Yasak5": "Tüylü"
+    },
+    {
+      "Id": "221",
+      "Kelime": "Dan Brown",
+      "Yasak1": "Yazar",
+      "Yasak2": "Kitap",
+      "Yasak3": "Film",
+      "Yasak4": "Da Vinci Şifresi",
+      "Yasak5": "Melekler ve Şeytanlar"
+    },
+    {
+      "Id": "222",
+      "Kelime": "Beyanname",
+      "Yasak1": "Vergi",
+      "Yasak2": "Vermek",
+      "Yasak3": "KDV",
+      "Yasak4": "Belge",
+      "Yasak5": "Fatura"
+    },
+    {
+      "Id": "223",
+      "Kelime": "Sığmak",
+      "Yasak1": "Girmek",
+      "Yasak2": "İç",
+      "Yasak3": "Dış",
+      "Yasak4": "Taşmak",
+      "Yasak5": "Olmak"
+    },
+    {
+      "Id": "224",
+      "Kelime": "Jargon",
+      "Yasak1": "Argo",
+      "Yasak2": "Dil",
+      "Yasak3": "Terim",
+      "Yasak4": "Sokak",
+      "Yasak5": "Ağız"
+    },
+    {
+      "Id": "225",
+      "Kelime": "Küsmek",
+      "Yasak1": "Darılmak",
+      "Yasak2": "Kızmak",
+      "Yasak3": "Konuşmak",
+      "Yasak4": "Tartışmak",
+      "Yasak5": "Kavga"
+    },
+    {
+      "Id": "226",
+      "Kelime": "Hece",
+      "Yasak1": "Kelime",
+      "Yasak2": "Harf",
+      "Yasak3": "Ses",
+      "Yasak4": "Okumak",
+      "Yasak5": "Yazı"
+    },
+    {
+      "Id": "227",
+      "Kelime": "Zencefil",
+      "Yasak1": "Ot",
+      "Yasak2": "Bitki",
+      "Yasak3": "Baharat",
+      "Yasak4": "Çay",
+      "Yasak5": "Yemek"
+    },
+    {
+      "Id": "228",
+      "Kelime": "Humus",
+      "Yasak1": "Meze",
+      "Yasak2": "Yemek",
+      "Yasak3": "Nohut",
+      "Yasak4": "Ezme",
+      "Yasak5": "Toprak"
+    },
+    {
+      "Id": "229",
+      "Kelime": "Stres",
+      "Yasak1": "İş",
+      "Yasak2": "Endişe",
+      "Yasak3": "Gerilim",
+      "Yasak4": "Yoğun",
+      "Yasak5": "Sinir"
+    },
+    {
+      "Id": "230",
+      "Kelime": "Romatizma",
+      "Yasak1": "Ağrı",
+      "Yasak2": "Yaşlı",
+      "Yasak3": "Bacak",
+      "Yasak4": "Eklem",
+      "Yasak5": "Yağmur"
+    },
+    {
+      "Id": "231",
+      "Kelime": "Armağan",
+      "Yasak1": "Hediye",
+      "Yasak2": "Vermek",
+      "Yasak3": "Almak",
+      "Yasak4": "Doğum Günü",
+      "Yasak5": "Yılbaşı"
+    },
+    {
+      "Id": "232",
+      "Kelime": "Yük",
+      "Yasak1": "Ağır",
+      "Yasak2": "Araba",
+      "Yasak3": "Taşımak",
+      "Yasak4": "At",
+      "Yasak5": "Eşek"
+    },
+    {
+      "Id": "233",
+      "Kelime": "Koordinat",
+      "Yasak1": "Yer",
+      "Yasak2": "Enlem",
+      "Yasak3": "Boylam",
+      "Yasak4": "Belirlemek",
+      "Yasak5": "Vermek"
+    },
+    {
+      "Id": "234",
+      "Kelime": "Baskül",
+      "Yasak1": "Tartı",
+      "Yasak2": "Kilo",
+      "Yasak3": "Ağır",
+      "Yasak4": "Ölçü",
+      "Yasak5": "Hafif"
+    },
+    {
+      "Id": "235",
+      "Kelime": "Smokin",
+      "Yasak1": "Resmi",
+      "Yasak2": "Davet",
+      "Yasak3": "Damat",
+      "Yasak4": "Siyah",
+      "Yasak5": "Giymek"
+    },
+    {
+      "Id": "236",
+      "Kelime": "Hukuk",
+      "Yasak1": "Avukat",
+      "Yasak2": "Kanun",
+      "Yasak3": "Hak",
+      "Yasak4": "Adalet",
+      "Yasak5": "Yasa"
+    },
+    {
+      "Id": "237",
+      "Kelime": "Tüp Bebek",
+      "Yasak1": "Çocuk",
+      "Yasak2": "Kısır",
+      "Yasak3": "Doğum",
+      "Yasak4": "Doktor",
+      "Yasak5": "Hamile"
+    },
+    {
+      "Id": "238",
+      "Kelime": "Gramer",
+      "Yasak1": "Kural",
+      "Yasak2": "İmla",
+      "Yasak3": "Yazım",
+      "Yasak4": "Dil Bilgisi",
+      "Yasak5": "Noktalama"
+    },
+    {
+      "Id": "239",
+      "Kelime": "Editör",
+      "Yasak1": "Gazete",
+      "Yasak2": "Dergi",
+      "Yasak3": "Yazı",
+      "Yasak4": "Sayfa",
+      "Yasak5": "Okumak"
+    },
+    {
+      "Id": "240",
+      "Kelime": "Bariyer",
+      "Yasak1": "Engel",
+      "Yasak2": "Ön",
+      "Yasak3": "Set",
+      "Yasak4": "Durdurmak",
+      "Yasak5": "Kurmak"
+    },
+    {
+      "Id": "241",
+      "Kelime": "Losyon",
+      "Yasak1": "Krem",
+      "Yasak2": "Vücut",
+      "Yasak3": "Jilet",
+      "Yasak4": "Sürmek",
+      "Yasak5": "Traş"
+    },
+    {
+      "Id": "242",
+      "Kelime": "Piston",
+      "Yasak1": "İtmek",
+      "Yasak2": "Motor",
+      "Yasak3": "Parça",
+      "Yasak4": "Araba",
+      "Yasak5": "Silindir"
+    },
+    {
+      "Id": "243",
+      "Kelime": "Denklem",
+      "Yasak1": "Matematik",
+      "Yasak2": "X",
+      "Yasak3": "Bilinmeyen",
+      "Yasak4": "Sayı",
+      "Yasak5": "Eşit"
+    },
+    {
+      "Id": "244",
+      "Kelime": "Birikim",
+      "Yasak1": "Kazanç",
+      "Yasak2": "Para",
+      "Yasak3": "Zenginlik",
+      "Yasak4": "Tasarruf",
+      "Yasak5": "Yatırım"
+    },
+    {
+      "Id": "245",
+      "Kelime": "Briyantin",
+      "Yasak1": "Saç",
+      "Yasak2": "Sürmek",
+      "Yasak3": "Jöle",
+      "Yasak4": "Krem",
+      "Yasak5": "Parlak"
+    },
+    {
+      "Id": "246",
+      "Kelime": "Yudum",
+      "Yasak1": "İçmek",
+      "Yasak2": "Dudak",
+      "Yasak3": "Ağız",
+      "Yasak4": "Su",
+      "Yasak5": "Çay"
+    },
+    {
+      "Id": "247",
+      "Kelime": "Bariz",
+      "Yasak1": "Açık",
+      "Yasak2": "Belirgin",
+      "Yasak3": "Net",
+      "Yasak4": "Ortada",
+      "Yasak5": "Görünen"
+    },
+    {
+      "Id": "248",
+      "Kelime": "Haykırmak",
+      "Yasak1": "Bağırmak",
+      "Yasak2": "Ses",
+      "Yasak3": "Yüksek",
+      "Yasak4": "Acı",
+      "Yasak5": "Çığlık"
+    },
+    {
+      "Id": "249",
+      "Kelime": "Haylaz",
+      "Yasak1": "Yaramaz",
+      "Yasak2": "Afacan",
+      "Yasak3": "Küçük",
+      "Yasak4": "Uslu",
+      "Yasak5": "Çocuk"
+    },
+    {
+      "Id": "250",
+      "Kelime": "Kavis",
+      "Yasak1": "Eğri",
+      "Yasak2": "Dönmek",
+      "Yasak3": "Viraj",
+      "Yasak4": "Kıvrım",
+      "Yasak5": "Düz"
+    },
+    {
+      "Id": "251",
+      "Kelime": "Ekstra",
+      "Yasak1": "İyi",
+      "Yasak2": "Kaliteli",
+      "Yasak3": "Süper",
+      "Yasak4": "Fazla",
+      "Yasak5": "Ayrıca"
+    },
+    {
+      "Id": "252",
+      "Kelime": "Bitkin",
+      "Yasak1": "Yorgun",
+      "Yasak2": "Dinlenmek",
+      "Yasak3": "Çalışmak",
+      "Yasak4": "Düşmek",
+      "Yasak5": "Güç"
+    },
+    {
+      "Id": "253",
+      "Kelime": "İmtiyaz",
+      "Yasak1": "Ayrıcalık",
+      "Yasak2": "Hak",
+      "Yasak3": "Özel",
+      "Yasak4": "Kişisel",
+      "Yasak5": "Sahip"
+    },
+    {
+      "Id": "254",
+      "Kelime": "Keramet",
+      "Yasak1": "Sihir",
+      "Yasak2": "Olağanüstü",
+      "Yasak3": "Mucize",
+      "Yasak4": "Ermiş",
+      "Yasak5": "Nikah"
+    },
+    {
+      "Id": "255",
+      "Kelime": "Reflü",
+      "Yasak1": "Mide",
+      "Yasak2": "Asit",
+      "Yasak3": "Yanmak",
+      "Yasak4": "Yemek Borusu",
+      "Yasak5": "Hastalık"
+    },
+    {
+      "Id": "256",
+      "Kelime": "Apandisit",
+      "Yasak1": "Patlamak",
+      "Yasak2": "Ağrı",
+      "Yasak3": "Ameliyat",
+      "Yasak4": "Acil",
+      "Yasak5": "İltihap"
+    },
+    {
+      "Id": "257",
+      "Kelime": "Kesat",
+      "Yasak1": "İş",
+      "Yasak2": "Para",
+      "Yasak3": "Az",
+      "Yasak4": "Müşteri",
+      "Yasak5": "Satış"
+    },
+    {
+      "Id": "258",
+      "Kelime": "Meteoroloji",
+      "Yasak1": "Tahmin",
+      "Yasak2": "Televizyon",
+      "Yasak3": "Atmosfer",
+      "Yasak4": "Ölçmek",
+      "Yasak5": "Hava Durumu"
+    },
+    {
+      "Id": "259",
+      "Kelime": "Maneviyat",
+      "Yasak1": "Din",
+      "Yasak2": "Ahlak",
+      "Yasak3": "İnanç",
+      "Yasak4": "Güçlü",
+      "Yasak5": "Maddiyat"
+    },
+    {
+      "Id": "260",
+      "Kelime": "Telaffuz",
+      "Yasak1": "Söyleniş",
+      "Yasak2": "Dil",
+      "Yasak3": "Konuşmak",
+      "Yasak4": "Yabancı",
+      "Yasak5": "Kelime"
+    },
+    {
+      "Id": "261",
+      "Kelime": "Böğürmek",
+      "Yasak1": "Bağırmak",
+      "Yasak2": "Hayvan",
+      "Yasak3": "Ses",
+      "Yasak4": "İnek",
+      "Yasak5": "Öküz"
+    },
+    {
+      "Id": "262",
+      "Kelime": "Bilanço",
+      "Yasak1": "Şirket",
+      "Yasak2": "Ciro",
+      "Yasak3": "Yıl",
+      "Yasak4": "Kar",
+      "Yasak5": "Açıklamak"
+    },
+    {
+      "Id": "263",
+      "Kelime": "Teselli",
+      "Yasak1": "Üzülmek",
+      "Yasak2": "Avutmak",
+      "Yasak3": "Dert",
+      "Yasak4": "Etmek",
+      "Yasak5": "Piyango"
+    },
+    {
+      "Id": "264",
+      "Kelime": "Halüsinasyon",
+      "Yasak1": "Hayal",
+      "Yasak2": "Gerçek",
+      "Yasak3": "Görmek",
+      "Yasak4": "İllüzyon",
+      "Yasak5": "Serap"
+    },
+    {
+      "Id": "265",
+      "Kelime": "Kitabe",
+      "Yasak1": "Göktürk",
+      "Yasak2": "Yazıt",
+      "Yasak3": "Okumak",
+      "Yasak4": "Eski",
+      "Yasak5": "Anıt"
+    },
+    {
+      "Id": "266",
+      "Kelime": "Kurma",
+      "Yasak1": "Hamam",
+      "Yasak2": "Yıkanmak",
+      "Yasak3": "Su",
+      "Yasak4": "Tellak",
+      "Yasak5": "Göbek Taşı"
+    },
+    {
+      "Id": "267",
+      "Kelime": "Abes",
+      "Yasak1": "Gereksiz",
+      "Yasak2": "Boş",
+      "Yasak3": "İştigal",
+      "Yasak4": "Yersiz",
+      "Yasak5": "Anlamsız"
+    },
+    {
+      "Id": "268",
+      "Kelime": "Adisyon",
+      "Yasak1": "Hesap",
+      "Yasak2": "Restoran",
+      "Yasak3": "Ödemek",
+      "Yasak4": "Para",
+      "Yasak5": "İstemek"
+    },
+    {
+      "Id": "269",
+      "Kelime": "Ağıt",
+      "Yasak1": "Yas",
+      "Yasak2": "Yakmak",
+      "Yasak3": "Üzülmek",
+      "Yasak4": "Ağlamak",
+      "Yasak5": "Dövünmek"
+    },
+    {
+      "Id": "270",
+      "Kelime": "Şefkat",
+      "Yasak1": "Göstermek",
+      "Yasak2": "Anne",
+      "Yasak3": "Duygu",
+      "Yasak4": "Sevgi",
+      "Yasak5": "Merhamet"
+    },
+    {
+      "Id": "271",
+      "Kelime": "Paydos",
+      "Yasak1": "Mesai",
+      "Yasak2": "Bitmek",
+      "Yasak3": "Bırakmak",
+      "Yasak4": "Çalışmak",
+      "Yasak5": "Durmak"
+    },
+    {
+      "Id": "272",
+      "Kelime": "Eksen",
+      "Yasak1": "Dünya",
+      "Yasak2": "Dönmek",
+      "Yasak3": "Enlem",
+      "Yasak4": "Boylam",
+      "Yasak5": "Çizgi"
+    },
+    {
+      "Id": "273",
+      "Kelime": "Tiksinmek",
+      "Yasak1": "İğrenmek",
+      "Yasak2": "Böcek",
+      "Yasak3": "Yemek",
+      "Yasak4": "Pislik",
+      "Yasak5": "Mide Bulantısı"
+    },
+    {
+      "Id": "274",
+      "Kelime": "Kıpırdamak",
+      "Yasak1": "Hareket",
+      "Yasak2": "Durmak",
+      "Yasak3": "Sabit",
+      "Yasak4": "Oynamak",
+      "Yasak5": "Canlı"
+    },
+    {
+      "Id": "275",
+      "Kelime": "Tanıdık",
+      "Yasak1": "Bildik",
+      "Yasak2": "Arkadaş",
+      "Yasak3": "Yabancı",
+      "Yasak4": "Dost",
+      "Yasak5": "Yakın"
+    },
+    {
+      "Id": "276",
+      "Kelime": "Pankart",
+      "Yasak1": "Açmak",
+      "Yasak2": "Gösteri",
+      "Yasak3": "Slogan",
+      "Yasak4": "Asmak",
+      "Yasak5": "Yazmak"
+    },
+    {
+      "Id": "277",
+      "Kelime": "Çamura Yatmak",
+      "Yasak1": "İtiraz",
+      "Yasak2": "Mızıkçılık",
+      "Yasak3": "Hile",
+      "Yasak4": "Yapmak",
+      "Yasak5": "Çirkeflik"
+    },
+    {
+      "Id": "278",
+      "Kelime": "Bağ Bozumu",
+      "Yasak1": "Üzüm",
+      "Yasak2": "Salkım",
+      "Yasak3": "Şarap",
+      "Yasak4": "Hasat",
+      "Yasak5": "Ege"
+    },
+    {
+      "Id": "279",
+      "Kelime": "Devşirme",
+      "Yasak1": "Osmanlı",
+      "Yasak2": "Asker",
+      "Yasak3": "Çocuk",
+      "Yasak4": "Yabancı",
+      "Yasak5": "Erkek"
+    },
+    {
+      "Id": "280",
+      "Kelime": "Reyting",
+      "Yasak1": "Televizyon",
+      "Yasak2": "Program",
+      "Yasak3": "Ölçmek",
+      "Yasak4": "Yüksek",
+      "Yasak5": "İzlemek"
+    },
+    {
+      "Id": "281",
+      "Kelime": "Faaliyet",
+      "Yasak1": "Rapor",
+      "Yasak2": "Yasa Dışı",
+      "Yasak3": "Göstermek",
+      "Yasak4": "Çalışmak",
+      "Yasak5": "Etkinlik"
+    },
+    {
+      "Id": "282",
+      "Kelime": "Zenne",
+      "Yasak1": "Dansöz",
+      "Yasak2": "Erkek",
+      "Yasak3": "Kadın",
+      "Yasak4": "Oryantal",
+      "Yasak5": "Oynamak"
+    },
+    {
+      "Id": "283",
+      "Kelime": "Boyun Eğmek",
+      "Yasak1": "Teslim",
+      "Yasak2": "Kabul",
+      "Yasak3": "Emir",
+      "Yasak4": "Uymak",
+      "Yasak5": "Yapmak"
+    },
+    {
+      "Id": "284",
+      "Kelime": "Botoks",
+      "Yasak1": "Estetik",
+      "Yasak2": "Kırışık",
+      "Yasak3": "Yüz",
+      "Yasak4": "Yaşlanmak",
+      "Yasak5": "Yaptırmak"
+    },
+    {
+      "Id": "285",
+      "Kelime": "Gam",
+      "Yasak1": "Dert",
+      "Yasak2": "Tasa",
+      "Yasak3": "Üzüntü",
+      "Yasak4": "Keder",
+      "Yasak5": "Yemek"
+    },
+    {
+      "Id": "286",
+      "Kelime": "Frekans",
+      "Yasak1": "Radyo",
+      "Yasak2": "Yayın",
+      "Yasak3": "FM",
+      "Yasak4": "Kanal",
+      "Yasak5": "Ses"
+    },
+    {
+      "Id": "287",
+      "Kelime": "Saf",
+      "Yasak1": "Kurnaz",
+      "Yasak2": "Katışıksız",
+      "Yasak3": "Asıl",
+      "Yasak4": "Öz",
+      "Yasak5": "Alkol"
+    },
+    {
+      "Id": "288",
+      "Kelime": "Fesleğen",
+      "Yasak1": "Ot",
+      "Yasak2": "Koku",
+      "Yasak3": "Nane",
+      "Yasak4": "Kekik",
+      "Yasak5": "Yemek"
+    },
+    {
+      "Id": "289",
+      "Kelime": "Cemre",
+      "Yasak1": "Düşmek",
+      "Yasak2": "Hava",
+      "Yasak3": "Toprak",
+      "Yasak4": "Su",
+      "Yasak5": "Bahar"
+    },
+    {
+      "Id": "290",
+      "Kelime": "Çaylak",
+      "Yasak1": "Acemi",
+      "Yasak2": "Deneyim",
+      "Yasak3": "Tecrübe",
+      "Yasak4": "Usta",
+      "Yasak5": "Yeni"
+    },
+    {
+      "Id": "291",
+      "Kelime": "Damping",
+      "Yasak1": "Fiyat",
+      "Yasak2": "İndirim",
+      "Yasak3": "Düşürmek",
+      "Yasak4": "Ucuz",
+      "Yasak5": "Satmak"
+    },
+    {
+      "Id": "292",
+      "Kelime": "Betonarme",
+      "Yasak1": "İnşaat",
+      "Yasak2": "Bina",
+      "Yasak3": "Ahşap",
+      "Yasak4": "Çimento",
+      "Yasak5": "Sağlam"
+    },
+    {
+      "Id": "293",
+      "Kelime": "Islanmak",
+      "Yasak1": "Yağmur",
+      "Yasak2": "Su",
+      "Yasak3": "Yaş",
+      "Yasak4": "Kuru",
+      "Yasak5": "Banyo"
+    },
+    {
+      "Id": "294",
+      "Kelime": "İtiraz",
+      "Yasak1": "Etmek",
+      "Yasak2": "Farklı",
+      "Yasak3": "Fikir",
+      "Yasak4": "Düşünce",
+      "Yasak5": "Karşı Çıkmak"
+    },
+    {
+      "Id": "295",
+      "Kelime": "Buram Buram",
+      "Yasak1": "Kokmak",
+      "Yasak2": "Duman",
+      "Yasak3": "Tütmek",
+      "Yasak4": "Yemek",
+      "Yasak5": "Gelmek"
+    },
+    {
+      "Id": "296",
+      "Kelime": "Amiral Battı",
+      "Yasak1": "Oyun",
+      "Yasak2": "Gemi",
+      "Yasak3": "Bulmak",
+      "Yasak4": "Yer",
+      "Yasak5": "Koordinat"
+    },
+    {
+      "Id": "297",
+      "Kelime": "Sirtaki",
+      "Yasak1": "Yunanistan",
+      "Yasak2": "Dans",
+      "Yasak3": "Halat",
+      "Yasak4": "Uzo",
+      "Yasak5": "Tabak"
+    },
+    {
+      "Id": "298",
+      "Kelime": "Tahammül Etmek",
+      "Yasak1": "Sabır",
+      "Yasak2": "Dayanmak",
+      "Yasak3": "Artık",
+      "Yasak4": "Sınır",
+      "Yasak5": "Katlanmak"
+    },
+    {
+      "Id": "299",
+      "Kelime": "Klişe",
+      "Yasak1": "Sıradan",
+      "Yasak2": "Alışılmış",
+      "Yasak3": "Sıkıcı",
+      "Yasak4": "Basmakalıp",
+      "Yasak5": "İlginç"
+    },
+    {
+      "Id": "300",
+      "Kelime": "Tuğra",
+      "Yasak1": "Osmanlı",
+      "Yasak2": "Padişah",
+      "Yasak3": "Damga",
+      "Yasak4": "Mühür",
+      "Yasak5": "İmza"
+    },
+    {
+      "Id": "301",
+      "Kelime": "Yüzüne Vurmak",
+      "Yasak1": "Gerçek",
+      "Yasak2": "Söylemek",
+      "Yasak3": "Sert",
+      "Yasak4": "Dobra",
+      "Yasak5": "Kaba"
+    },
+    {
+      "Id": "302",
+      "Kelime": "Sefil",
+      "Yasak1": "Rezil",
+      "Yasak2": "Kötü",
+      "Yasak3": "Fena",
+      "Yasak4": "Alçak",
+      "Yasak5": "Victor Hugo"
+    },
+    {
+      "Id": "303",
+      "Kelime": "Cenin",
+      "Yasak1": "Bebek",
+      "Yasak2": "Anne",
+      "Yasak3": "Rahim",
+      "Yasak4": "Doğmak",
+      "Yasak5": "Küçük"
+    },
+    {
+      "Id": "304",
+      "Kelime": "Uskumru",
+      "Yasak1": "Balık",
+      "Yasak2": "Lüfer",
+      "Yasak3": "Hamsi",
+      "Yasak4": "Palamut",
+      "Yasak5": "Çeşit"
+    },
+    {
+      "Id": "305",
+      "Kelime": "Finans",
+      "Yasak1": "Ekonomi",
+      "Yasak2": "Para",
+      "Yasak3": "Borsa",
+      "Yasak4": "Banka",
+      "Yasak5": "Mali"
+    },
+    {
+      "Id": "306",
+      "Kelime": "Gözyaşı",
+      "Yasak1": "Ağlamak",
+      "Yasak2": "Damla",
+      "Yasak3": "Su",
+      "Yasak4": "Islak",
+      "Yasak5": "Üzülmek"
+    },
+    {
+      "Id": "307",
+      "Kelime": "Hipotenüs",
+      "Yasak1": "Üçgen",
+      "Yasak2": "Açı",
+      "Yasak3": "Geometro",
+      "Yasak4": "Dik",
+      "Yasak5": "Doksan Derece"
+    },
+    {
+      "Id": "308",
+      "Kelime": "Avize",
+      "Yasak1": "Lamba",
+      "Yasak2": "Kristal",
+      "Yasak3": "Tavan",
+      "Yasak4": "Işık",
+      "Yasak5": "Aydınlık"
+    },
+    {
+      "Id": "309",
+      "Kelime": "Pati",
+      "Yasak1": "Kedi",
+      "Yasak2": "Köpek",
+      "Yasak3": "Hayvan",
+      "Yasak4": "Ayak",
+      "Yasak5": "El"
+    },
+    {
+      "Id": "310",
+      "Kelime": "Yas Tutmak",
+      "Yasak1": "Üzülmek",
+      "Yasak2": "Ölüm",
+      "Yasak3": "Matem",
+      "Yasak4": "Siyah",
+      "Yasak5": "Acı"
+    },
+    {
+      "Id": "311",
+      "Kelime": "Kışkırtmak",
+      "Yasak1": "Ayaklanma",
+      "Yasak2": "Kötü",
+      "Yasak3": "Kandırmak",
+      "Yasak4": "Karşı",
+      "Yasak5": "Fesat"
+    },
+    {
+      "Id": "312",
+      "Kelime": "Uçuk",
+      "Yasak1": "Kaçık",
+      "Yasak2": "Virüs",
+      "Yasak3": "Dudak",
+      "Yasak4": "Çıkmak",
+      "Yasak5": "Sivilce"
+    },
+    {
+      "Id": "313",
+      "Kelime": "Köz",
+      "Yasak1": "Ateş",
+      "Yasak2": "Yanmak",
+      "Yasak3": "Kor",
+      "Yasak4": "Mangal",
+      "Yasak5": "Kömür"
+    },
+    {
+      "Id": "314",
+      "Kelime": "Sığ",
+      "Yasak1": "Derin",
+      "Yasak2": "Deniz",
+      "Yasak3": "Kıyı",
+      "Yasak4": "Yüzmek",
+      "Yasak5": "Boy"
+    },
+    {
+      "Id": "315",
+      "Kelime": "Kulaç",
+      "Yasak1": "Yüzmek",
+      "Yasak2": "Atmak",
+      "Yasak3": "Kol",
+      "Yasak4": "Deniz",
+      "Yasak5": "Havuz"
+    },
+    {
+      "Id": "316",
+      "Kelime": "Ütopya",
+      "Yasak1": "Hayal",
+      "Yasak2": "Düşünce",
+      "Yasak3": "İmkansız",
+      "Yasak4": "İdeal",
+      "Yasak5": "Mükemmel"
+    },
+    {
+      "Id": "317",
+      "Kelime": "Ropdöşambır",
+      "Yasak1": "Erkek",
+      "Yasak2": "Sabahlık",
+      "Yasak3": "Pijama",
+      "Yasak4": "Giymek",
+      "Yasak5": "Üst"
+    },
+    {
+      "Id": "318",
+      "Kelime": "Bilimum",
+      "Yasak1": "Bütün",
+      "Yasak2": "Hepsi",
+      "Yasak3": "Çeşit",
+      "Yasak4": "Tür",
+      "Yasak5": "Her Şey"
+    },
+    {
+      "Id": "319",
+      "Kelime": "Lüzumsuz",
+      "Yasak1": "Gerek",
+      "Yasak2": "Lazım",
+      "Yasak3": "Görmek",
+      "Yasak4": "İhtiyaç",
+      "Yasak5": "Olmak"
+    },
+    {
+      "Id": "320",
+      "Kelime": "Roka",
+      "Yasak1": "Balık",
+      "Yasak2": "Yaprak",
+      "Yasak3": "Yeşillik",
+      "Yasak4": "Salata",
+      "Yasak5": "Rakı"
+    },
+    {
+      "Id": "321",
+      "Kelime": "Batarya",
+      "Yasak1": "Pil",
+      "Yasak2": "Şarj",
+      "Yasak3": "Çalışmak",
+      "Yasak4": "Elektrik",
+      "Yasak5": "Takmak"
+    },
+    {
+      "Id": "322",
+      "Kelime": "Siklet",
+      "Yasak1": "Ağır",
+      "Yasak2": "Hafif",
+      "Yasak3": "Tüy",
+      "Yasak4": "Boks",
+      "Yasak5": "Güreş"
+    },
+    {
+      "Id": "323",
+      "Kelime": "Afet",
+      "Yasak1": "Felaket",
+      "Yasak2": "Deprem",
+      "Yasak3": "Sel",
+      "Yasak4": "Doğal",
+      "Yasak5": "Yıkım"
+    },
+    {
+      "Id": "324",
+      "Kelime": "Revir",
+      "Yasak1": "Hemşire",
+      "Yasak2": "DOktor",
+      "Yasak3": "Askerlik",
+      "Yasak4": "Okul",
+      "Yasak5": "Yaralanmak"
+    },
+    {
+      "Id": "325",
+      "Kelime": "Saldırgan",
+      "Yasak1": "Agresif",
+      "Yasak2": "Kavga",
+      "Yasak3": "Tehlikeli",
+      "Yasak4": "Zarar",
+      "Yasak5": "Düşman"
+    },
+    {
+      "Id": "326",
+      "Kelime": "Bulanık",
+      "Yasak1": "Kirli",
+      "Yasak2": "Çamurlu",
+      "Yasak3": "Su",
+      "Yasak4": "Temiz",
+      "Yasak5": "Duru"
+    },
+    {
+      "Id": "327",
+      "Kelime": "Mamut",
+      "Yasak1": "Hayvan",
+      "Yasak2": "Fil",
+      "Yasak3": "Hortum",
+      "Yasak4": "Dinozor",
+      "Yasak5": "Buzul Çağı"
+    },
+    {
+      "Id": "328",
+      "Kelime": "Mancınık",
+      "Yasak1": "Fırlatmak",
+      "Yasak2": "Atmak",
+      "Yasak3": "Kale",
+      "Yasak4": "Savaş",
+      "Yasak5": "Silah"
+    },
+    {
+      "Id": "329",
+      "Kelime": "Seramik",
+      "Yasak1": "Toprak",
+      "Yasak2": "Tabak",
+      "Yasak3": "Porselen",
+      "Yasak4": "Fırın",
+      "Yasak5": "Kil"
+    },
+    {
+      "Id": "330",
+      "Kelime": "Mıcır",
+      "Yasak1": "Yol",
+      "Yasak2": "Taş",
+      "Yasak3": "Dökmek",
+      "Yasak4": "Asfalt",
+      "Yasak5": "Küçük"
+    },
+    {
+      "Id": "331",
+      "Kelime": "Yalvarmak",
+      "Yasak1": "İstemek",
+      "Yasak2": "Dua",
+      "Yasak3": "Allah",
+      "Yasak4": "Tanrı",
+      "Yasak5": "Lütfen"
+    },
+    {
+      "Id": "332",
+      "Kelime": "Müjde",
+      "Yasak1": "Haber",
+      "Yasak2": "İyi",
+      "Yasak3": "Sevinç",
+      "Yasak4": "İstemek",
+      "Yasak5": "Vermek"
+    },
+    {
+      "Id": "333",
+      "Kelime": "Ara Bulucu",
+      "Yasak1": "Taraf",
+      "Yasak2": "Barıştırmak",
+      "Yasak3": "Anlaşmazlık",
+      "Yasak4": "Küsmek",
+      "Yasak5": "Uzlaştırmak"
+    },
+    {
+      "Id": "334",
+      "Kelime": "Sivil",
+      "Yasak1": "Asker",
+      "Yasak2": "Resmi",
+      "Yasak3": "Üniforma",
+      "Yasak4": "Savunma",
+      "Yasak5": "Toplum"
+    },
+    {
+      "Id": "335",
+      "Kelime": "İzmarit",
+      "Yasak1": "Sigara",
+      "Yasak2": "İçmek",
+      "Yasak3": "Atmak",
+      "Yasak4": "Söndürmek",
+      "Yasak5": "Kül Tablası"
+    },
+    {
+      "Id": "336",
+      "Kelime": "Atlantis",
+      "Yasak1": "Kıta",
+      "Yasak2": "Kayıp",
+      "Yasak3": "Batmak",
+      "Yasak4": "Okyanus",
+      "Yasak5": "Masal"
+    },
+    {
+      "Id": "337",
+      "Kelime": "Mazeret",
+      "Yasak1": "Özür",
+      "Yasak2": "Sebep",
+      "Yasak3": "Bahane",
+      "Yasak4": "Gerekçe",
+      "Yasak5": "Hata"
+    },
+    {
+      "Id": "338",
+      "Kelime": "Eritmek",
+      "Yasak1": "Buz",
+      "Yasak2": "Dondurma",
+      "Yasak3": "Sıvı",
+      "Yasak4": "Katı",
+      "Yasak5": "Sıcak"
+    },
+    {
+      "Id": "339",
+      "Kelime": "Turp Gibi",
+      "Yasak1": "Sağlam",
+      "Yasak2": "Sağlıklı",
+      "Yasak3": "Güçlü",
+      "Yasak4": "Kuvvetli",
+      "Yasak5": "Hasta"
+    },
+    {
+      "Id": "340",
+      "Kelime": "Çetrefil",
+      "Yasak1": "Karışık",
+      "Yasak2": "Anlaşılmaz",
+      "Yasak3": "Zor",
+      "Yasak4": "Güç",
+      "Yasak5": "Basit"
+    },
+    {
+      "Id": "341",
+      "Kelime": "Rencide Etmek",
+      "Yasak1": "Olmak",
+      "Yasak2": "Gurur",
+      "Yasak3": "İncitmek",
+      "Yasak4": "Küçük Düşürmek",
+      "Yasak5": "Kalbini Kırmak"
+    },
+    {
+      "Id": "342",
+      "Kelime": "Konsomatris",
+      "Yasak1": "Kadın",
+      "Yasak2": "Eşlik Etmek",
+      "Yasak3": "Pavyon",
+      "Yasak4": "Masa",
+      "Yasak5": "Para"
+    },
+    {
+      "Id": "343",
+      "Kelime": "Sancak",
+      "Yasak1": "Bayrak",
+      "Yasak2": "Sur",
+      "Yasak3": "Asker",
+      "Yasak4": "Dikmek",
+      "Yasak5": "Ulubatlı Hasan"
+    },
+    {
+      "Id": "344",
+      "Kelime": "Pörsümek",
+      "Yasak1": "Yumuşamak",
+      "Yasak2": "Eski",
+      "Yasak3": "Sarkmak",
+      "Yasak4": "Sebze",
+      "Yasak5": "Meyve"
+    },
+    {
+      "Id": "345",
+      "Kelime": "İmkansız",
+      "Yasak1": "Olmaz",
+      "Yasak2": "Mümkün",
+      "Yasak3": "Asla",
+      "Yasak4": "İhtimal",
+      "Yasak5": "Olanak"
+    },
+    {
+      "Id": "346",
+      "Kelime": "Süngü",
+      "Yasak1": "Takmak",
+      "Yasak2": "Asker",
+      "Yasak3": "Silah",
+      "Yasak4": "Tüfek",
+      "Yasak5": "Bıçak"
+    },
+    {
+      "Id": "347",
+      "Kelime": "Kategori",
+      "Yasak1": "Konu",
+      "Yasak2": "Sınıf",
+      "Yasak3": "Ayırmak",
+      "Yasak4": "Grup",
+      "Yasak5": "Aynı"
+    },
+    {
+      "Id": "348",
+      "Kelime": "Beraber",
+      "Yasak1": "Birlikte",
+      "Yasak2": "Tek",
+      "Yasak3": "İki",
+      "Yasak4": "Yapmak",
+      "Yasak5": "Ortak"
+    },
+    {
+      "Id": "349",
+      "Kelime": "Pardösü",
+      "Yasak1": "Palto",
+      "Yasak2": "Kaban",
+      "Yasak3": "Rüzgarlık",
+      "Yasak4": "Giymek",
+      "Yasak5": "Uzun"
+    },
+    {
+      "Id": "350",
+      "Kelime": "Ayak Uydurmak",
+      "Yasak1": "Hız",
+      "Yasak2": "Yavaş",
+      "Yasak3": "Beraber",
+      "Yasak4": "Geri",
+      "Yasak5": "Yürümek"
+    },
+    {
+      "Id": "351",
+      "Kelime": "Tuz Ruhu",
+      "Yasak1": "Asit",
+      "Yasak2": "Çözmek",
+      "Yasak3": "Silmek",
+      "Yasak4": "Temizlik",
+      "Yasak5": "Tuvalet"
+    },
+    {
+      "Id": "352",
+      "Kelime": "Veri",
+      "Yasak1": "Bilgi",
+      "Yasak2": "Belirtilmiş",
+      "Yasak3": "İstatistik",
+      "Yasak4": "Araştırma",
+      "Yasak5": "Sayısal"
+    },
+    {
+      "Id": "353",
+      "Kelime": "Ağız Dalaşı",
+      "Yasak1": "Kavga",
+      "Yasak2": "Atışma",
+      "Yasak3": "Tartışma",
+      "Yasak4": "Söz",
+      "Yasak5": "Laf"
+    },
+    {
+      "Id": "354",
+      "Kelime": "Aborjin",
+      "Yasak1": "Avustralya",
+      "Yasak2": "Yerli",
+      "Yasak3": "İlkel",
+      "Yasak4": "Basit",
+      "Yasak5": "Bir Çift Yürek"
+    },
+    {
+      "Id": "355",
+      "Kelime": "Falso",
+      "Yasak1": "Top",
+      "Yasak2": "Atmak",
+      "Yasak3": "Vurmak",
+      "Yasak4": "Yamuk",
+      "Yasak5": "Vermek"
+    },
+    {
+      "Id": "356",
+      "Kelime": "Temelli",
+      "Yasak1": "Hep",
+      "Yasak2": "Sürekli",
+      "Yasak3": "Kalıcı",
+      "Yasak4": "Devamlı",
+      "Yasak5": "Her Zaman"
+    },
+    {
+      "Id": "357",
+      "Kelime": "Cüret",
+      "Yasak1": "Cesur",
+      "Yasak2": "Saygı",
+      "Yasak3": "Yürekli",
+      "Yasak4": "Korkak",
+      "Yasak5": "Terbiye"
+    },
+    {
+      "Id": "358",
+      "Kelime": "Ambiyans",
+      "Yasak1": "Hava",
+      "Yasak2": "Ortam",
+      "Yasak3": "Mekan",
+      "Yasak4": "Güzel",
+      "Yasak5": "Bozulmak"
+    },
+    {
+      "Id": "359",
+      "Kelime": "Muhtemelen",
+      "Yasak1": "Belki",
+      "Yasak2": "Emin",
+      "Yasak3": "Kesin",
+      "Yasak4": "İhtimal",
+      "Yasak5": "Olasılık"
+    },
+    {
+      "Id": "360",
+      "Kelime": "Elden Düşme",
+      "Yasak1": "İkinci El",
+      "Yasak2": "Eski",
+      "Yasak3": "Yeni",
+      "Yasak4": "Araba",
+      "Yasak5": "Almak"
+    },
+    {
+      "Id": "361",
+      "Kelime": "Hoşgörü",
+      "Yasak1": "Sabır",
+      "Yasak2": "Anlayış",
+      "Yasak3": "Affetmek",
+      "Yasak4": "Olgunluk",
+      "Yasak5": "Kızman"
+    },
+    {
+      "Id": "362",
+      "Kelime": "Serseri",
+      "Yasak1": "Boş",
+      "Yasak2": "İşsiz",
+      "Yasak3": "Gezmek",
+      "Yasak4": "Asi",
+      "Yasak5": "Avare"
+    },
+    {
+      "Id": "363",
+      "Kelime": "Haciz",
+      "Yasak1": "Borç",
+      "Yasak2": "Para",
+      "Yasak3": "Mal",
+      "Yasak4": "El Koymak",
+      "Yasak5": "Eşya"
+    },
+    {
+      "Id": "364",
+      "Kelime": "Sıkıntı",
+      "Yasak1": "Monoton",
+      "Yasak2": "Eğlenmek",
+      "Yasak3": "Aynı",
+      "Yasak4": "İç",
+      "Yasak5": "Can"
+    },
+    {
+      "Id": "365",
+      "Kelime": "Doğaçlama",
+      "Yasak1": "Müzik",
+      "Yasak2": "Çalmak",
+      "Yasak3": "Önce",
+      "Yasak4": "An",
+      "Yasak5": "Spontane"
+    },
+    {
+      "Id": "366",
+      "Kelime": "Vestiyer",
+      "Yasak1": "Asmak",
+      "Yasak2": "Palto",
+      "Yasak3": "Bırakmak",
+      "Yasak4": "Dolap",
+      "Yasak5": "Gitmek"
+    },
+    {
+      "Id": "367",
+      "Kelime": "Hırdavat",
+      "Yasak1": "Nalbur",
+      "Yasak2": "Dükkan",
+      "Yasak3": "Alet",
+      "Yasak4": "Çivi",
+      "Yasak5": "İnşaat"
+    },
+    {
+      "Id": "368",
+      "Kelime": "Hokka",
+      "Yasak1": "Burun",
+      "Yasak2": "Divit",
+      "Yasak3": "Mürekkep",
+      "Yasak4": "Dolmakalem",
+      "Yasak5": "Yazmak"
+    },
+    {
+      "Id": "369",
+      "Kelime": "Ziyafet",
+      "Yasak1": "Yemek",
+      "Yasak2": "Şölen",
+      "Yasak3": "Davet",
+      "Yasak4": "Sofra",
+      "Yasak5": "Misafir"
+    },
+    {
+      "Id": "370",
+      "Kelime": "İltica Etmek",
+      "Yasak1": "Göç",
+      "Yasak2": "Mülteci",
+      "Yasak3": "Sığınma",
+      "Yasak4": "Siyasi",
+      "Yasak5": "Ülke"
+    },
+    {
+      "Id": "371",
+      "Kelime": "Pişmanlık",
+      "Yasak1": "Hata",
+      "Yasak2": "Üzülmek",
+      "Yasak3": "Yanlış",
+      "Yasak4": "Keşke",
+      "Yasak5": "Son"
+    },
+    {
+      "Id": "372",
+      "Kelime": "Baget",
+      "Yasak1": "Ekmek",
+      "Yasak2": "Bateri",
+      "Yasak3": "Davul",
+      "Yasak4": "Çalmak",
+      "Yasak5": "Vurmak"
+    },
+    {
+      "Id": "373",
+      "Kelime": "Tünek",
+      "Yasak1": "Kuş",
+      "Yasak2": "Dal",
+      "Yasak3": "Yuva",
+      "Yasak4": "Oturmak",
+      "Yasak5": "Durmak"
+    },
+    {
+      "Id": "374",
+      "Kelime": "Ödenek",
+      "Yasak1": "Para",
+      "Yasak2": "Bütçe",
+      "Yasak3": "Ayırmak",
+      "Yasak4": "Devlet",
+      "Yasak5": "Örtülü"
+    },
+    {
+      "Id": "375",
+      "Kelime": "Jack Nicholson",
+      "Yasak1": "Aktör",
+      "Yasak2": "Batman",
+      "Yasak3": "Hollywood",
+      "Yasak4": "Sinema",
+      "Yasak5": "Yaşlı"
+    },
+    {
+      "Id": "376",
+      "Kelime": "Sandviç",
+      "Yasak1": "Peynir",
+      "Yasak2": "Domates",
+      "Yasak3": "Yemek",
+      "Yasak4": "Acıkmak",
+      "Yasak5": "Ekmek Arası"
+    },
+    {
+      "Id": "377",
+      "Kelime": "Tekstil",
+      "Yasak1": "Kumaş",
+      "Yasak2": "Sektör",
+      "Yasak3": "Moda",
+      "Yasak4": "Giyse",
+      "Yasak5": "Kıyafet"
+    },
+    {
+      "Id": "378",
+      "Kelime": "Boris Becker",
+      "Yasak1": "Tenis",
+      "Yasak2": "Raket",
+      "Yasak3": "Alman",
+      "Yasak4": "Erkek",
+      "Yasak5": "Spor"
+    },
+    {
+      "Id": "379",
+      "Kelime": "Göze Gelmek",
+      "Yasak1": "Konuşmak",
+      "Yasak2": "Kıskanmak",
+      "Yasak3": "Nazar Değmek",
+      "Yasak4": "Mavi Boncuk",
+      "Yasak5": "Batıl İnanç"
+    },
+    {
+      "Id": "380",
+      "Kelime": "Somon",
+      "Yasak1": "Balık",
+      "Yasak2": "Füme",
+      "Yasak3": "Renk",
+      "Yasak4": "Pembe",
+      "Yasak5": "Yemek"
+    },
+    {
+      "Id": "381",
+      "Kelime": "Poliçe",
+      "Yasak1": "Sigorta",
+      "Yasak2": "Senet",
+      "Yasak3": "Borç",
+      "Yasak4": "Ödemek",
+      "Yasak5": "Para"
+    },
+    {
+      "Id": "382",
+      "Kelime": "Bombe",
+      "Yasak1": "Şişkin",
+      "Yasak2": "Çıkıntı",
+      "Yasak3": "Kabarık",
+      "Yasak4": "Düz",
+      "Yasak5": "Yüzey"
+    },
+    {
+      "Id": "383",
+      "Kelime": "Kabzımal",
+      "Yasak1": "Meyve",
+      "Yasak2": "Sebze",
+      "Yasak3": "Hal",
+      "Yasak4": "Satmak",
+      "Yasak5": "Aracı"
+    },
+    {
+      "Id": "384",
+      "Kelime": "Kaldıraç",
+      "Yasak1": "Tahterevalli",
+      "Yasak2": "Denge",
+      "Yasak3": "Park",
+      "Yasak4": "Aşağı",
+      "Yasak5": "Yukarı"
+    },
+    {
+      "Id": "385",
+      "Kelime": "Kanaat",
+      "Yasak1": "Not",
+      "Yasak2": "Öğretmen",
+      "Yasak3": "Okul",
+      "Yasak4": "Ders",
+      "Yasak5": "Düşünce"
+    },
+    {
+      "Id": "386",
+      "Kelime": "Ahkam Kesmek",
+      "Yasak1": "Bilmek",
+      "Yasak2": "Konuşmak",
+      "Yasak3": "Atmak",
+      "Yasak4": "Ukala",
+      "Yasak5": "Şımarık"
+    },
+    {
+      "Id": "387",
+      "Kelime": "Alüvyon",
+      "Yasak1": "Akarsu",
+      "Yasak2": "Toprak",
+      "Yasak3": "Taşımak",
+      "Yasak4": "Verimli",
+      "Yasak5": "Yığmak"
+    },
+    {
+      "Id": "388",
+      "Kelime": "Antetli Kağıt",
+      "Yasak1": "A4",
+      "Yasak2": "Sayfa",
+      "Yasak3": "Yazı",
+      "Yasak4": "Kurumsal",
+      "Yasak5": "Logo"
+    },
+    {
+      "Id": "389",
+      "Kelime": "Aort",
+      "Yasak1": "Atardamar",
+      "Yasak2": "Kalp",
+      "Yasak3": "Kan",
+      "Yasak4": "Nabız",
+      "Yasak5": "Kırmızı"
+    },
+    {
+      "Id": "390",
+      "Kelime": "Ağzı Sıkı",
+      "Yasak1": "Sır",
+      "Yasak2": "Saklamak",
+      "Yasak3": "Güvenilir",
+      "Yasak4": "Konuşmak",
+      "Yasak5": "Söylemek"
+    },
+    {
+      "Id": "391",
+      "Kelime": "Yaban Mersini",
+      "Yasak1": "Meyve",
+      "Yasak2": "Bitki",
+      "Yasak3": "Orman",
+      "Yasak4": "Toplamak",
+      "Yasak5": "Yemek"
+    },
+    {
+      "Id": "392",
+      "Kelime": "Eter",
+      "Yasak1": "Uçucu",
+      "Yasak2": "Bayılmak",
+      "Yasak3": "Alkol",
+      "Yasak4": "Koku",
+      "Yasak5": "Çözmek"
+    },
+    {
+      "Id": "393",
+      "Kelime": "Damarına Basmak",
+      "Yasak1": "Sinirlendirmek",
+      "Yasak2": "Kızdırmak",
+      "Yasak3": "Öfke",
+      "Yasak4": "Söylemek",
+      "Yasak5": "İnat"
+    },
+    {
+      "Id": "394",
+      "Kelime": "Sanmak",
+      "Yasak1": "Tahmin",
+      "Yasak2": "Zannetmek",
+      "Yasak3": "Bilmek",
+      "Yasak4": "Düşünmek",
+      "Yasak5": "Emin Olmak"
+    },
+    {
+      "Id": "395",
+      "Kelime": "Manevra",
+      "Yasak1": "Hareket",
+      "Yasak2": "Yapmak",
+      "Yasak3": "Araba",
+      "Yasak4": "Park Etmek",
+      "Yasak5": "Kabiliyet"
+    },
+    {
+      "Id": "396",
+      "Kelime": "Çilingir Sofrası",
+      "Yasak1": "Rakı",
+      "Yasak2": "Meze",
+      "Yasak3": "İçmek",
+      "Yasak4": "Kilit",
+      "Yasak5": "Kapı"
+    },
+    {
+      "Id": "397",
+      "Kelime": "Kireç",
+      "Yasak1": "Duvar",
+      "Yasak2": "Badana",
+      "Yasak3": "Boya",
+      "Yasak4": "Oda",
+      "Yasak5": "Çamaşır Makinesi"
+    },
+    {
+      "Id": "398",
+      "Kelime": "Kanal Tedavisi",
+      "Yasak1": "Diş Hekimi",
+      "Yasak2": "Doktor",
+      "Yasak3": "Dolgu",
+      "Yasak4": "Çürük",
+      "Yasak5": "Yaptırmak"
+    },
+    {
+      "Id": "399",
+      "Kelime": "Eflatun",
+      "Yasak1": "Renk",
+      "Yasak2": "Mor",
+      "Yasak3": "Lila",
+      "Yasak4": "Filozof",
+      "Yasak5": "Düşünür"
+    },
+    {
+      "Id": "400",
+      "Kelime": "Turnuva",
+      "Yasak1": "Yarışma",
+      "Yasak2": "Şampiyon",
+      "Yasak3": "Kazanmak",
+      "Yasak4": "Katılmak",
+      "Yasak5": "Ödül"
+    },
+    {
+      "Id": "401",
+      "Kelime": "Sherlock Holmes",
+      "Yasak1": "Dedektif",
+      "Yasak2": "Watson",
+      "Yasak3": "İngiliz",
+      "Yasak4": "Kitap",
+      "Yasak5": "Pipo"
+    }
+  ]
+}
