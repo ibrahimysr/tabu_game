@@ -4,6 +4,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:tabu_game/components/dynamic_gradient.dart';
 import 'package:tabu_game/components/game_buttons.dart';
 import 'package:tabu_game/components/game_timer.dart';
 import 'package:tabu_game/components/scoreboard.dart';
@@ -283,14 +284,7 @@ Future<void> _showGameEndDialog() async {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [Color(0xFF6A11CB), Color(0xFF2575FC)],
-          ),
-        ),
+      body:AnimatedGradientBackground(
         child: SafeArea(
           child: Column(
             children: [
@@ -328,37 +322,52 @@ Future<void> _showGameEndDialog() async {
     );
   }
 
-  Widget _buildHeader() {
-    return Container(
-      padding: EdgeInsets.symmetric(vertical: 8),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          Text(
-            'TABU',
-            style: TextStyle(
-              fontSize: 28,
-              fontWeight: FontWeight.bold,
-              color: Colors.white,
-              letterSpacing: 2,
-            ),
+ Widget _buildHeader() {
+  return Container(
+    padding: EdgeInsets.symmetric(vertical: 8),
+    child: Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        Text(
+          'TABU',
+          style: TextStyle(
+            fontSize: 28,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+            letterSpacing: 2,
           ),
-          if (gameStarted)
+        ),
+        Row(
+          children: [
             IconButton(
-              icon: Icon(Icons.settings, color: Colors.white),
-              onPressed: () async {
-                bool? result = await showSettingsDialog(context, settings);
-                if (result == true) {
-                  setState(() {
-                    timeLeft = settings.roundDuration;
-                  });
-                }
+              icon: Icon(
+                Theme.of(context).brightness == Brightness.dark
+                    ? Icons.light_mode
+                    : Icons.dark_mode,
+                color: Colors.white,
+              ),
+              onPressed: () {
+                // Implement theme toggle logic (e.g., using Provider or setState)
               },
             ),
-        ],
-      ),
-    );
-  }
+            if (gameStarted)
+              IconButton(
+                icon: Icon(Icons.settings, color: Colors.white),
+                onPressed: () async {
+                  bool? result = await showSettingsDialog(context, settings);
+                  if (result == true) {
+                    setState(() {
+                      timeLeft = settings.roundDuration;
+                    });
+                  }
+                },
+              ),
+          ],
+        ),
+      ],
+    ),
+  );
+}
 
   Widget _buildGameContent() {
     return Column(
